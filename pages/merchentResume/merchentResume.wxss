@@ -1,0 +1,152 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+.w710{
+	height:205rpx;
+	border-bottom:solid 1px #d9d9d9;
+	align-items:center;
+	display:flex;
+	background:#fff;
+	overflow:hidden;
+}
+.job_list{
+	height:115rpx;
+	width:100%;
+}
+.list_left{
+	width:60%;
+	height:130rpx;
+}
+.list_right{
+	width:20%;
+	height:130rpx;
+	text-align:right;
+	font-size:24rpx;
+	color:#666;
+}
+.job_type{
+	height:33%;
+	font-size:30rpx;
+	color:#333;
+	display:flex;
+	align-items:center;
+	margin-right:20rpx;
+}
+.treatment{
+	height:33%;
+	width:100%;
+	display:flex;
+	align-items:center;
+}
+.treatment_sort{
+	font-size:22rpx;
+	color:#666;
+	margin-right:10rpx;
+}
+.treatment_sort image{
+	width:19rpx;
+	height:19rpx;
+	margin-right:6rpx;
+}
+.company_img{
+	width:16%;
+	height:100%;
+	align-items:center;
+	display:flex;
+}
+.company_img image{
+	width:60rpx;
+	height:60rpx;
+}
+.company_introuce{
+	height:33%;
+	font-size:26rpx;
+	color:#666;
+	width:100%;
+	display:flex;
+	align-items:center;
+
+}
+.company_name{
+	height:50%;
+	font-size:28rpx;
+	color:#333;
+}
+.send_datail{
+	width:60%;
+}
+.send_tiem{
+	font-size:22rpx;
+	color:#999;
+}
+.send_need{
+	font-size:22rpx;
+	color:#666;
+}
+.payment{
+	height:50%;
+	font-size:30rpx;
+	color:#666;
+}
+.hongbao{
+	height:50%;
+
+}
+.hongbao image{
+	width:66rpx;
+	height:82rpx;
+}
+.list_img{
+	width:21%;
+}
+.user_img{
+	width:100rpx;
+	height:100rpx;
+	border-radius:50%;
+	overflow:hidden;
+}
+.handle1{
+	width:50%;
+	display:flex;
+	text-align:center;
+	height:100%;
+	background:#ed7101;
+	font-size:24rpx;
+	color:#fff;
+	align-items:center;
+}
+.handle2{
+	width:25%;
+	display:flex;
+	text-align:center;
+	height:100%;
+	text-align:center;
+	height:100%;
+	background:#0ea884;	
+	font-size:24rpx;
+	color:#fff;
+}
+.handle_in{
+	width:70%;
+	margin:0 auto;
+	color:#fff;
+}
+.resume_handle{
+	height:80rpx;
+	margin-bottom:20rpx;
+}
+.resume_handle image{
+	width:43rpx;
+	height:43rpx;
+}
+.appointment{
+	font-size:22rpx;
+	color:#666;
+}

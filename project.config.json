@@ -1,0 +1,175 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wx212611f012b9cf1d",
+	"projectname": "huaLuZhuo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 21,
+			"list": [
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "理解我们",
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "简介",
+					"pathName": "pages/aboutIntroduce/aboutIntroduce",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "联系我们",
+					"pathName": "pages/aboutContact/aboutContact",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "账户",
+					"pathName": "pages/userCash/userCash",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "银行卡",
+					"pathName": "pages/userCashCard/userCashCard",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的资产",
+					"pathName": "pages/userSum/userSum",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "充值",
+					"pathName": "pages/userSumIn/userSumIn",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "立即充值",
+					"pathName": "pages/userSumNow/userSumNow",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "编辑个人信息",
+					"pathName": "pages/userInfor/userInfor",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "商家入口",
+					"pathName": "pages/userMerchants/userMerchants",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "赠送电话卡",
+					"pathName": "pages/userPhoneCard/userPhoneCard",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "赚钱",
+					"pathName": "pages/userMakeMoney/userMakeMoney",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "面试邀请",
+					"pathName": "pages/userInterview/userInterview",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "商家信息",
+					"pathName": "pages/merchantInfor/merchantInfor",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "收到简历",
+					"pathName": "pages/merchentResume/merchentResume",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "简历信息",
+					"pathName": "pages/merchentResumeDetail/merchentResumeDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发布邀请",
+					"pathName": "pages/merchentInvite/merchentInvite",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发布信息",
+					"pathName": "pages/merchentSendInfor/merchentSendInfor",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发布信息1",
+					"pathName": "pages/merchentSendInfor/merchentSendInfor"
+				}
+			]
+		}
+	}
+}

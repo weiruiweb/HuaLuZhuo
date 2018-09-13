@@ -1,0 +1,106 @@
+<!--user.wxml-->
+<view class="banner">
+  <view class="p40">
+      <view class="banner_top">
+        <image src="/images/tixing.png"></image>
+      </view>
+      <view class="banner_bottom flexRowBetween">
+        <view class="user_left">
+          <view style="font-size:46rpx;color:#fff;">
+            华路卓
+          </view>
+          <view class="flex"   bindtap="intoPath" data-path="/pages/userCashCard/userCashCard">
+            <view class="flex" style="margin-right:40rpx;">
+              <view class="user_card" style="margin-right:20rpx;"><image src="/images/accout1.png"></image></view>
+              <view style="font-size:22rpx;color:#fff;">银行卡体现</view>
+            </view>
+            <view style="font-size:24rpx;color:#fff;" bindtap="intoPath" data-path="/pages/userCashNow/userCashNow">体现 >></view>
+          </view>
+        </view>
+        <view class="user_right">
+            <view class="user_img">
+              <open-data type="userAvatarUrl"></open-data>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>
+<view class="user_sort">
+  <view class="user_item flexRowBetween">
+    <view style="width:98%;">
+     <view class="item_top">已提现</view>
+     <view class="item_bottom">100</view>
+    </view>
+    <view class="vertical_line">
+      <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+    </view>
+  </view>
+  <view class="user_item flexRowBetween">
+    <view style="width:98%;">
+     <view class="item_top">余额</view>
+     <view class="item_bottom">100</view>
+    </view>
+    <view class="vertical_line">
+      <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+    </view>
+  </view>
+  <view class="user_item"   bindtap="intoPath" data-path="/pages/userCashNext/userCashNext">
+     <view class="item_bottom" style="height:75rpx;line-height:75rpx;">下级</view>
+  </view>
+</view>
+<view class="index_tab flexRowBetween">
+    <view class="tab_item {{currentId == 0?'this_tab':''}}" data-id="0" bindtap="changeTab">
+      体现记录
+    </view>
+    <view  class="tab_item {{currentId == 1?'this_tab':''}}" data-id="1"  bindtap="changeTab">
+      奖励记录
+    </view>
+</view>
+<view class="cash" style="{{currentId == 0?'display:block':'display:none'}}">
+  <view class="p40">
+    <view class="cash_tlt flexRowBetween">
+      <view class="tlt_item">
+        金额
+      </view>
+      <view class="tlt_item">
+        时间
+      </view>
+    </view>
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item">200元</view>
+      <view class="tlt_item"> 2016.09.08</view>
+    </view>
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item">200元</view>
+      <view class="tlt_item"> 2016.09.08</view>
+    </view>
+  </view>
+</view>
+
+
+<view class="reward" style="{{currentId == 1?'display:block':'display:none'}}">
+  <view class="p40">
+    <view class="cash_tlt flexRowBetween">
+      <view class="tlt_item">
+        金额
+      </view>
+      <view class="tlt_item">
+        原因
+      </view>
+      <view class="tlt_item">
+        时间
+      </view>
+    </view>
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item">200元</view>
+      <view class="tlt_item">转发</view>
+      <view class="tlt_item"> 2016.09.08</view>
+    </view>
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item">200元</view>
+      <view class="tlt_item">入职</view>
+      <view class="tlt_item"> 2016.09.08</view>
+    </view>
+    
+  </view>
+</view>

@@ -1,0 +1,55 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+}
+.cashNow{
+	margin-top:20rpx;
+	padding-bottom:40rpx;
+}
+
+.sumIn{
+	width:528rpx;height:80rpx;line-height:80rpx;border-radius:10rpx;text-align:center;font-size:28rpx;color:#fff;background:#ed7101;margin:0 auto;
+}
+.sum_txt{
+	height:90rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+	border-bottom:solid 1px #e0e0e0;
+}
+.sumTxt{
+	height:40rpx;
+	padding-left:20rpx;
+	font-size:28rpx;
+	color:#666;
+	border-left:solid 4rpx #ed7101;
+}
+.sum_sort{
+	height:72rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+	border-bottom:solid 1px #e0e0e0;
+}
+.sort_in{
+	height:36rpx;
+	width:100%;
+}
+.sort_item{
+	width:50%;
+	font-size:24rpx;
+	color:#ed7101;
+	text-align:center;
+}
+.sum_cont {
+	height:60rpx;
+	line-height:60rpx;
+}
+.sum_cont .sort_item{
+	font-size:24rpx;
+	color:#666;
+}

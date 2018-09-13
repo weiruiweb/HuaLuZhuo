@@ -1,0 +1,30 @@
+<!--user.wxml-->
+<view class="next flexRowBetween">
+
+    <view class="next_item" style="border-right:dashed 1px #ed7101">名称</view>
+    <view class="next_item">时间</view>
+</view>
+<view style="height:70rpx;margin-top:5rpx;" class="flexRowBetween">
+  <view class="next_cont">
+    下级
+  </view>
+  <view  class="next_cont">
+    2018-2-2
+  </view>
+</view>
+<view style="height:70rpx;margin-top:5rpx;" class="flexRowBetween">
+  <view class="next_cont">
+    下级
+  </view>
+  <view  class="next_cont">
+    2018-2-2
+  </view>
+</view>
+<view style="height:70rpx;margin-top:5rpx;" class="flexRowBetween">
+  <view class="next_cont">
+    下级
+  </view>
+  <view  class="next_cont">
+    2018-2-2
+  </view>
+</view>

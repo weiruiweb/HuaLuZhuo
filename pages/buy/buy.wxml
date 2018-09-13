@@ -1,0 +1,33 @@
+<!--buy.wxml-->
+
+<view class="navbar">
+    
+      <view class="navbar_item" bindtap="index">
+      
+          <view class="nav_img">
+            <image src="/images/navbar1-a.png" style="width:50rpx;height:48rpx;"></image>
+          </view>
+          <view class="text" style="{{fonts[2].font}}">首页</view>
+
+      </view>
+    
+    <view class="navbar_item" bindtap="sort">
+   
+        <view class="nav_img">
+           <image src="/images/navbar2.png" style="width:50rpx;height:48rpx;"></image>
+        </view>
+        <view class="text this-text" style="{{fonts[2].font}}">关于我们</view>
+    
+    </view>
+  
+    <view class="navbar_item"  bindtap="User">
+   
+        <view class="nav_img">
+            <image src="/images/navbar3.png" style="width:50rpx;height:48rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">我的</view>
+
+    </view>
+</view>
+
+

@@ -1,0 +1,125 @@
+<!--index.wxml-->
+<view class="index_tab flexRowBetween">
+    <view class="tab_item {{currentId == 0?'this_tab':''}}" data-id="0" bindtap="changeTab">
+      最新岗位
+    </view>
+    <view  class="tab_item {{currentId == 1?'this_tab':''}}" data-id="1"  bindtap="changeTab">
+      最新工作
+    </view>
+</view>
+
+<view class="sort flexRowBetween">
+  <view class="sort_item">
+      <view class="sort_in flexRowBetween">
+          <view class="text1">西安</view>
+          <image src="/images/up_icon.png"></image>
+      </view>
+  </view>
+  <view class="sort_item">
+      <view class="sort_in flexRowBetween">
+          <view class="text1">薪资</view>
+          <image src="/images/up_icon.png"></image>
+      </view>
+  </view>
+  <view class="sort_item">
+      <view class="sort_in flexRowBetween">
+          <view class="text1">经验</view>
+          <image src="/images/up_icon.png"></image>
+      </view>
+  </view>
+  <view class="sort_item">
+      <view class="sort_in flexRowBetween">
+          <view class="text1">时间</view>
+          <image src="/images/up_icon.png"></image>
+      </view>
+  </view>
+</view>
+<view class="job">
+  <view class="w710">
+    <view class="job_list flexRowBetween">
+      <view class="list_left">
+        <view class="job_type avoidOverflow">UI设计师</view>
+        <view class="treatment flex">
+          <view class="treatment_sort">五险一金</view>
+          <view class="treatment_sort">加班补偿</view>
+          <view class="treatment_sort">交通方便</view>
+        </view>
+        <view class="job_company flexRowBetween">
+          <view class="company_img">
+            <image src="/images/navbar2-a.png"></image>
+          </view>
+          <view class="company_introuce">
+             <view class="company_name avoidOverflow">华路卓咨询有限公司</view>
+             <view class="send_datail flexRowBetween">
+                <view class="send_tiem">06年7月</view>
+                <view class="send_need">陕西|普工</view>
+             </view>
+          </view>
+        </view>
+      </view>
+      <view class="list_right">
+        <view class="payment">2K-10K</view>
+        <view class="hongbao">
+          <image src="/images/hongbao.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="w710">
+    <view class="job_list flexRowBetween">
+      <view class="list_left">
+        <view class="job_type avoidOverflow">UI设计师</view>
+        <view class="treatment flex">
+          <view class="treatment_sort">五险一金</view>
+          <view class="treatment_sort">加班补偿</view>
+          <view class="treatment_sort">交通方便</view>
+        </view>
+        <view class="job_company flexRowBetween">
+          <view class="company_img">
+            <image src="/images/navbar2-a.png"></image>
+          </view>
+          <view class="company_introuce">
+             <view class="company_name avoidOverflow">华路卓咨询有限公司</view>
+             <view class="send_datail flexRowBetween">
+                <view class="send_tiem">06年7月</view>
+                <view class="send_need">陕西|普工</view>
+             </view>
+          </view>
+        </view>
+      </view>
+      <view class="list_right">
+        <view class="payment">2K-10K</view>
+        <view class="hongbao">
+          <image src="/images/hongbao.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;margin-bottom:120rpx;">
+  技术支持:西安纯粹科技有限公司
+</view>
+<view style="height:120rpx;width:100%;">
+</view>
+<view class="navbar">
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1-a.png" style="width:40rpx;height:40rpx;"></image>
+        </view>
+        <view class="text this-text" style="{{fonts[2].font}}">找工作</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+           <image src="/images/navbar2.png" style="width:40rpx;height:40rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">个人中心</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/about/about">
+        <view class="nav_img">
+            <image src="/images/navbar3.png" style="width:40rpx;height:40rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">了解我们</view>
+    </view>
+</view>

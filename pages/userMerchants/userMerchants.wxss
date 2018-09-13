@@ -1,0 +1,93 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#c4e8fb;
+}
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+.banner{
+	width:100%;
+	height:278rpx;
+	overflow:hidden;
+	position:relative;
+	background:#ed7100;
+}
+.banner_top{
+	height:80rpx;
+}
+.banner_top image{
+	width:31rpx;
+	height:40rpx;
+}
+.banner_bottom{
+	height:160rpx;
+}
+.user_left{
+	width:76%;
+	heihgt:160rpx;
+}
+.user_right{
+	width:24%;
+	height:160rpx;
+}
+.user_img{
+	width:160rpx;
+	height:160rpx;
+	border-radius:50%;
+	overflow:hidden;
+	margin:0px auto;
+}
+.user_sort{
+	height:105rpx;
+	display:flex;
+	align-items:center;
+	width:100%;
+	background:#fff;
+}
+.user_item{
+	height:70rpx;
+	width:33.33%;
+	text-align:center;
+}
+.item_top{
+	height:50%;
+	font-size:24rpx;
+	color:#000;
+}
+.item_bottom{
+	height:50%;
+	font-size:28rpx;
+	color:#666;
+}
+.vertical_line{
+	width:2%;
+	height:70%;
+}
+.user{
+	flex-wrap:wrap;
+	background:#fff;
+	margin-top:40rpx;
+}
+.user_module{
+	width:33.33%;
+	height:200rpx;
+	border-top:solid 1px #e0e0e0;
+	text-align:center;
+}
+.module_img image{
+	width:46rpx;
+	height:46rpx;
+}
+.module_img{
+	height:128rpx;
+	line-height:148rpx;
+	overflow:hidden;
+}
+.module_text{
+	font-size:22rpx;
+	color:#666;
+}

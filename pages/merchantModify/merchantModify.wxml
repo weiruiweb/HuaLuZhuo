@@ -1,0 +1,109 @@
+<!--user.wxml-->
+<view class="p40">
+  <view class="sum_txt">
+    <view class="sumTxt">基础信息</view>
+  </view>
+  <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        公司名称:
+      </view>
+      <input value="华路卓"  disabled="{{is_edit == 0?'false':'true'}}"></input>
+      <view class="pencil" data-id="0" bindtap="edit">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        联系人:
+      </view>
+      <input value="华路卓"  disabled="{{is_edit == 1?'false':'true'}}"></input>
+      <view class="pencil" data-id="1"  bindtap="edit">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        手机号:
+      </view>
+      <input value="1223233223"  disabled="{{is_edit == 0?'false':'true'}}"></input>
+      <view class="pencil"  data-id="2"  bindtap="edit">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+   </view>
+   <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        座机号:
+      </view>
+      <input value="019-3233223"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        邮箱号:
+      </view>
+      <input value="@3uiu415222525"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+   </view>
+   <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        企业规模:
+      </view>
+      <input value="019-3233223"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        地址:
+      </view>
+      <input value="@3uiu415222525"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+   </view>
+    <view class="sum_txt" style="border:none;">
+      <view class="sumTxt">公司简介</view>
+    </view>
+    <view class="intro flexRowBetween">
+      <view class="intro_edit">
+        <image src="/images/pencil1.png"></image>
+      </view>
+      <textarea value="华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司" disabled="true"></textarea>
+    </view>
+    <view class="sum_txt" style="border:none;">
+      <view class="sumTxt">营业执照</view>
+    </view>
+    <view id="upload">
+      
+        <view class="uploder">
+            <view class="uploder_all flexRowBetween">
+             <!-- <block wx:for="{{web_imgData}}"> -->
+                <view class="uploder_item" bindtap="upLoadImg" >
+                    <view class="uploader_input">
+                      <image src="/images/cash_icon1.png" style="width:82rpx;height:82rpx;"></image>
+                    </view>
+                    <view class="upload_noe">上传身份证正面</view>
+                </view>
+              <!--</block>-->
+            </view>
+        </view>
+  </view>
+
+</view>
+<view style="height:100rpx;width:100%;">
+ 
+</view>
+<view class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/userCash/userCash">
+  确认修改
+</view>

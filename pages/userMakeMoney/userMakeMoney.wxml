@@ -1,0 +1,79 @@
+<!--makeMOney.wxml-->
+<view class="banner">
+  <image src="/images/make_banner.png"></image>
+</view>
+<view class="w710">
+  <view class="make_tlt flex">
+    <image src="/images/make1.png"></image>
+    <view class="tlt_txt">
+      推荐职位赚钱
+    </view>
+  </view>
+  <view class="make_detail flexRowBetween" style="height:190rpx;">
+    <view class="p40 make_in" style="height:130rpx;">
+        <view class="makein_tlt flex" style="margin-top:0;">
+          <image src="/images/make2.png"></image>
+          <view class="tlt_txt">
+            推荐流程:
+          </view>
+        </view>
+        <view class="make_list flex">
+          <view class="number">1</view>
+          <view class="tlt_txt" style="color:#666;">
+            浏览悬赏职位，推荐好友入职
+          </view>
+        </view>
+        <view class="make_list flex">
+          <view class="number">2</view>
+          <view class="tlt_txt" style="color:#666;">
+            好友入职后，你和好友都有悬赏
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
+<view class="w710">
+  <view class="make_tlt flex">
+    <image src="/images/make1.png"></image>
+    <view class="tlt_txt">
+      转发赚钱
+    </view>
+  </view>
+  <view class="make_detail flexRowBetween" style="height:290rpx;">
+    <view class="p40 make_in" style="height:230rpx;">
+        <view class="makein_tlt flex" style="margin-top:0;">
+          <image src="/images/make3.png"></image>
+          <view class="tlt_txt">
+            转发流程:
+          </view>
+        </view>
+        <view class="make_list flex">
+          <view class="number">1</view>
+          <view class="tlt_txt" style="color:#666;">
+            每一个职位,你转发到朋友圈
+          </view>
+        </view>
+        <view class="make_list flex">
+          <view class="number">2</view>
+          <view class="tlt_txt" style="color:#666;">
+            没转发一条都可以获得奖金
+          </view>
+        </view>
+        <view class="make_list flex">
+          <view class="number">3</view>
+          <view class="tlt_txt" style="color:#666;">
+            有人通过你转发的招聘信息入职
+          </view>
+        </view>
+        <view class="make_list flex">
+          <view class="number">4</view>
+          <view class="tlt_txt" style="color:#666;">
+            你和入职者都可获得奖金
+          </view>
+        </view>
+    </view>
+  </view>
+</view>
+<view class="submit_info">
+  <button open-type="share">立即赚钱</button>
+</view>

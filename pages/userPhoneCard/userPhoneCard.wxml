@@ -1,0 +1,52 @@
+<!--user.wxml-->
+<view class="p40">
+  <view class="phone_note">限量优惠59元每月！全国流量不限量套餐，电信内购专属！全国流量不限量，包含300分钟通话，超出按0.15元每分钟。填写收件地址后，免费快递送达。</view>
+  <view class="phone_infor" >
+    <view class="">请填写收件信息</view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        收件人姓名:
+      </view>
+      <input placeholder="请输入收件人姓名"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        身份证号:
+      </view>
+      <input placeholder="请输入身份证号"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        联系电话:
+      </view>
+      <input placeholder="请输入联系电话"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        配送地址:
+      </view>
+      <view class="flexRowBetween" style="width:75%;">
+            <view class="adreess_input input_left">广东省</view>
+            <view class="adreess_input input_left">
+               <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+                <view class="picker">
+                  {{region[1]}}<view class="up_icon"><image src="/images/up_icon.png"></image></view>
+                </view>
+              </picker>
+            </view>
+          </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+       
+      </view>
+      <view class="adreess_textarea">
+          <textarea placeholder="请填写详细地址，仅限广东省内收获"></textarea>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/use/user">
+  立即提交免费送货上门
+</view>

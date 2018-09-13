@@ -1,0 +1,68 @@
+<!--user.wxml-->
+<view style="width:75%;margin:32rpx auto">
+  <view style="width:100%;" class="bank_card">
+      <view class="input_before">
+        卡号:
+      </view>
+      <input placeholder="请输入卡号"></input>
+  </view>
+  <view style="width:100%;" class="bank_card">
+      <view class="input_before">
+        开户名:
+      </view>
+      <input placeholder="请输入开户名"></input>
+  </view>
+  <view style="width:100%;" class="bank_card">
+      <view class="input_before">
+        开户行:
+      </view>
+      <input placeholder="请输入开户行"></input>
+  </view>
+  <view style="width:100%;margin-top:30rpx;" class="bank_card">
+      <view class="input_before">
+        开户地:
+      </view>
+      <view class="bank_address">
+        <view style="height:70rpx;border-bottom:solid 1px #e0e0e0;" class="flexRowBetween">
+          <view class="adreess_provence">省</view>
+          <view class="adreess_input">
+             <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+              <view class="picker">
+                请选择省份{{region[0]}}，{{region[1]}}，{{region[2]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+        <view style="height:70rpx;border-bottom:solid 1px #e0e0e0;" class="flexRowBetween">
+          <view class="adreess_provence">市</view>
+          <view class="adreess_input">
+             <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+              <view class="picker">
+                请选择市{{region[0]}}，{{region[1]}}，{{region[2]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+        <view style="height:70rpx;border-bottom:solid 1px #e0e0e0;" class="flexRowBetween">
+          <view class="adreess_provence">区</view>
+          <view class="adreess_input">
+             <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+              <view class="picker">
+                请选择区/县{{region[0]}}，{{region[1]}}，{{region[2]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+        <view style="height:70rpx;border-bottom:solid 1px #e0e0e0;" class="flexRowBetween">
+          <view class="adreess_provence">支行</view>
+          <view class="adreess_input">
+            请选择支行
+          </view>
+        </view>
+      </view>
+  </view>
+</view>
+
+<view class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/userCash/userCash">
+  确认绑定
+</view>

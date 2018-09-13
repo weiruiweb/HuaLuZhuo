@@ -1,0 +1,41 @@
+<!--user.wxml-->
+<view class="sum flex">
+  <view class="sum_in">
+    <view style="width:100%;text-align:center;">
+      <view style="font-size:24rpx;color:#666;">总支出</view>
+      <view style="font-size:32rpx;color:#ed7101;margin-top:30rpx;">10000.00元</view>
+    </view>
+  </view>
+</view>
+<view class="p40" style="margin-top:20rpx;background:#fff;">
+  <view class="sum_txt">
+    <view class="sumTxt">支出记录</view>
+  </view>
+  <view class="sum_sort">
+    <view class="sort_in flexRowBetween">
+        <view class="sort_item" style="border-right:solid 1px #e0e0e0;">
+            金额
+        </view>
+        <view class="sort_item">
+            时间
+        </view>
+    </view>
+  </view>
+  <view class="sum_cont flexRowBetween">
+   <view class="sort_item">
+      200元
+    </view>
+    <view class="sort_item">
+       2018.06.06
+    </view>
+  </view>
+  <view class="sum_cont flexRowBetween">
+   <view class="sort_item">
+      200元
+    </view>
+    <view class="sort_item">
+       2018.06.06
+    </view>
+  </view>
+</view>
+

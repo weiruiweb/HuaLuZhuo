@@ -1,0 +1,37 @@
+<!--user.wxml-->
+<view class="sum flex">
+  <view class="sum_in">
+    <view style="width:100%;text-align:center;">
+      <view style="font-size:24rpx;color:#666;">我的余额</view>
+      <view style="font-size:32rpx;color:#ed7101;margin-top:30rpx;">10000.00元</view>
+    </view>
+  </view>
+</view>
+<view id="sum"  bindtap="intoPath" data-path="/pages/userSumIn/userSumIn">
+  <view class="sum_list flexRowBetween">
+      <view class="sum_left flex">
+          <view style="color:#ed7101;margin-right:20rpx;">●</view>
+          <view>总充值</view>
+      </view>
+      <view class="sum_center">
+          11111元
+      </view>
+      <view class="sum_right">
+        <image src="/images/next_page.jpg"></image>
+      </view>
+  </view>
+</view>
+<view id="sum"   bindtap="intoPath" data-path="/pages/userSumOut/userSumOut">
+  <view class="sum_list flexRowBetween">
+      <view class="sum_left flex">
+          <view style="color:#ed7101;margin-right:20rpx;">●</view>
+          <view>已支出</view>
+      </view>
+      <view class="sum_center">
+          11111元
+      </view>
+      <view class="sum_right">
+        <image src="/images/next_page.jpg"></image>
+      </view>
+  </view>
+</view>

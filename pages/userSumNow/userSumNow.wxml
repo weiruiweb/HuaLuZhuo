@@ -1,0 +1,46 @@
+<!--user.wxml-->
+<view class="cashNow">
+  <view class="p40">
+    <view style="height:100rpx;line-height:100rpx;font-size:28rpx;color:#444;">请输入充值金额</view>
+    <view class="flexRowBetween">
+      <view style="width:91%;height:80rpx;border:solid 1px #ed7101;border-radius:10rpx;padding:0 2%;">
+        <input style="height:80rpx;line-height:80rpx;font-size:30rpx;"></input>
+      </view>
+      <view style="font-size:24rpx;color:#666;width:5%;">元</view>
+    </view>
+  </view>
+</view>
+<view style="height:140rpx;background:#eee;align-items:center;width:100%;display:flex;">
+  <view class="sumIn">确认充值</view>
+</view>
+<view class="p40">
+  <view class="sum_txt">
+    <view class="sumTxt">充值记录</view>
+  </view>
+  <view class="sum_sort">
+    <view class="sort_in flexRowBetween">
+        <view class="sort_item" style="border-right:solid 1px #e0e0e0;">
+            金额
+        </view>
+        <view class="sort_item">
+            时间
+        </view>
+    </view>
+  </view>
+  <view class="sum_cont flexRowBetween">
+   <view class="sort_item">
+      200元
+    </view>
+    <view class="sort_item">
+       2018.06.06
+    </view>
+  </view>
+  <view class="sum_cont flexRowBetween">
+   <view class="sort_item">
+      200元
+    </view>
+    <view class="sort_item">
+       2018.06.06
+    </view>
+  </view>
+</view>

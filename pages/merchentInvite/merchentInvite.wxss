@@ -1,0 +1,149 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2
+}
+.index_tab{
+	height:90rpx;
+	line-height:90rpx;
+	width:100%;
+	background:#fff;
+	margin-bottom:20rpx;
+}
+.tab_item{
+	width:25%;
+	border-bottom:solid 1px #d9d9d9;
+	text-align:center;
+	font-size:26rpx;
+	color:#333;
+}
+.this_tab{
+	border-bottom:solid 1px #ed7100;
+	color:#ed7100;
+}
+.w710{
+	height:222rpx;
+	border-bottom:solid 1px #d9d9d9;
+	align-items:center;
+	display:flex;
+	margin-bottom:20rpx;
+	background:#fff;
+}
+.job_list{
+	height:180rpx;
+	width:100%;
+}
+.list_left{
+	width:70%;
+	height:180rpx;
+}
+.list_right{
+	width:27%;
+	padding-right:3%;
+	height:180rpx;
+	text-align:right;
+}
+.job_type{
+	height:22%;
+	font-size:30rpx;
+	color:#333;
+}
+
+.job_company{
+	height:34%;
+	width:100%;
+}
+.treatment{
+	height:22%;
+	width:100%;
+	display:flex;
+	align-items:center;
+}
+.treatment_sort{
+	font-size:22rpx;
+	color:#666;
+	margin-right:10rpx;
+}
+.treatment_sort image{
+	width:19rpx;
+	height:19rpx;
+	margin-right:6rpx;
+}
+.company_img{
+	width:16%;
+	height:100%;
+	align-items:center;
+	display:flex;
+}
+.company_img image{
+	width:60rpx;
+	height:100%;
+}
+.company_introuce{
+	width:84%;
+	height:100%;
+}
+.company_name{
+	font-size:28rpx;
+	color:#333;
+}
+.send_datail{
+	width:60%;
+}
+.send_tiem{
+	font-size:22rpx;
+	color:#999;
+}
+.send_need{
+	font-size:22rpx;
+	color:#666;
+}
+.payment{
+	height:66%;
+	font-size:30rpx;
+	color:#ed7100;
+}
+.hongbao{
+	height:34%;
+	text-align:right;
+	display:flex;
+	align-items:center;
+	font-size:24rpx;
+	color:#666;
+}
+.numner{
+	width:50rpx;
+	height:50rpx;
+	line-height:50rpx;
+	border-radius:50%;
+	background:#ed7101;
+	align-items:center;
+	text-align:center;
+	color:#fff;
+	font-size:22rpx;
+	float:right;
+	position:absolute;
+	right:0;
+}
+.handle{
+	height:222rpx;
+	width:13%;
+	text-align:center;
+}
+.handle_top{
+	height:50%;
+	width:100%;
+	align-items:center;
+	display:flex;
+	background:#ed7101;
+}
+.handle_bottom{
+	background:#11a983;
+}
+.handle image{
+	width:40rpx;
+	height:40rpx;
+	margin:0 auto;
+}

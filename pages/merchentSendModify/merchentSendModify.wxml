@@ -1,0 +1,122 @@
+<!--user.wxml-->
+<view class="p40">
+  <view class="sum_txt flexRowBetween">
+    <view class="sumTxt">基础信息</view>
+    <view class="pencil">
+      编辑
+      <image src="/images/pencil.png"></image>
+    </view>
+  </view>
+  <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        标题:
+      </view>
+      <input value="华路卓" ></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        薪酬:
+      </view>
+      <input value="华路卓" ></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        职位:
+      </view>
+      <input value="1223233223" ></input>
+    </view>
+   </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        人数:
+      </view>
+      <input value="019-3233223"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        学历:
+      </view>
+      <input value="@3uiu415222525"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        经验:
+      </view>
+      <input value="@3uiu415222525"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        年龄:
+      </view>
+      <input value="24岁"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        性别:
+      </view>
+      <input value="男"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        工作地点:
+      </view>
+      <input value="24岁"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        福利待遇:
+      </view>
+      <input value="24岁"></input>
+    </view>
+</view>
+<view style="height:80rpx;line-height:80rpx;background:#f2f2f2;width:100%;position:relative;font-size:28rpx;text-align:center;">
+   福利待遇可多选
+   <view style="position:absolute;right:40rpx;top:0;color:#ED7101">完成</view>
+</view>
+<view class="p40">
+  <view class="flexRowBetween" id="choose">
+    <view class="choose_item">
+      五险一金
+    </view>
+    <view class="choose_item">
+      包吃
+    </view>
+    <view class="choose_item">
+      包住
+    </view>
+    <view class="choose_item">
+      周末双休
+    </view>
+    <view class="choose_item">
+      年底双薪
+    </view>
+    <view class="choose_item">
+      房补
+    </view>
+    <view class="choose_item">
+      话补
+    </view>
+    <view class="choose_item">
+      交通补助
+    </view>
+    <view class="choose_item">
+      饭补
+    </view>
+    <view class="choose_item">
+      加班补助
+    </view>
+  </view>
+  <view class="reward_money flexRowBetween">
+    <view class="reward_sort">入职:100元</view>
+    <view class="reward_sort">一级转发:180元</view>
+    <view class="reward_sort">转发:2元每次</view>
+    <view class="reward_sort">二级转发:20元</view>
+  </view>
+</view>
+<view style="height:100rpx;width:100%;">
+ 
+</view>
+<button class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/userCash/userCash">
+  支付发布
+</button>

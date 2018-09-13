@@ -1,0 +1,147 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+
+}
+view{
+	font-size:26rpx;
+	color:#666;
+}
+.sum_txt{
+	height:90rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+	border-bottom:solid 1px #e0e0e0;
+}
+.sumTxt{
+	height:40rpx;
+	padding-left:20rpx;
+	font-size:28rpx;
+	color:#333;
+	font-weight:bold;
+	border-left:solid 4rpx #ed7101;
+}
+
+.phone_note{
+	margin-top:28rpx;
+	
+	line-height:38rpx;
+}
+.phone_infor{
+	margin-top:20rpx;
+}
+.input_before{
+	width:20%;
+	height:68rpx;
+	line-height:68rpx;
+	overflow:hidden;
+	font-size:28rpx;
+	color:#333;	
+}
+.bank_card{
+	width:100%;
+	height:68rpx;
+	border-bottom:solid 1px #e0e0e0;
+}
+.bank_card input{
+	width:70%;
+	padding:0 2%;
+	height:68rpx;
+	line-height:68rpx;
+	font-size:26rpx;
+}
+.pencil{
+	width:10%;
+	text-align:right;
+}
+.pencil image{
+	width:24rpx;
+	height:24rpx;
+}
+.intro{
+	line-height:40rpx;
+}
+.adreess_textarea{
+	width:75%;
+}
+.adreess_textarea textarea{
+	width:96%;
+	height:120rpx;
+	border:solid 1px #ed7101;
+	border-radius:10rpx;
+	padding:2%;
+}
+.input_left{
+	width:180rpx;
+}
+.confirm_bind{
+	width:100%;
+	height:84rpx;
+	background:#ed7101;
+	line-height:84rpx;
+	font-size:30rpx;
+	color:#fff;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+}
+.uploder_all{
+	align-items:center;
+	padding:30rpx 0;
+}
+.uploder_item{
+	width:46.5%;
+	height:304rpx;
+	line-height:160rpx;
+	text-align:center;
+	overflow:hidden;
+	border:solid 1px #b5b5b5;
+	background:#f2f2f2;
+}
+
+.uploader_input{
+	width:100%;
+	height:180rpx;
+	line-height:222rpx;
+	overflow:hidden;
+}
+.uploader_input image{
+	width:100%;
+	height:100%;
+}
+
+.upload_noe{
+	height:82rpx;
+	line-height:82rpx;
+	overflow:hidden;
+	font-size:30rpx;
+	color:#666;
+}
+.intro{
+	height:350rpx;
+	border-radius:10rpx;
+	border:solid 1px #e0e0e0;
+}
+.intro image{
+	width:24rpx;
+	height:24rpx;
+	margin:0 auto;
+}
+.intro textarea{
+	width:94%;
+	padding:10rpx 3%;
+	heihgt:350rpx;
+	overflow:auto;
+}
+.intro_edit{
+	width:10%;
+	text-align:center;
+	height:100%;
+	background:#ed7101;
+	align-items:center;
+	display:flex;
+}

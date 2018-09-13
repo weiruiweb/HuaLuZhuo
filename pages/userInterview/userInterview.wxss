@@ -1,0 +1,127 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2
+}
+.w710{
+	height:222rpx;
+	border-bottom:solid 1px #d9d9d9;
+	align-items:center;
+	display:flex;
+	margin-bottom:20rpx;
+	background:#fff;
+}
+.job_list{
+	height:180rpx;
+	width:100%;
+}
+.list_left{
+	width:70%;
+	height:180rpx;
+}
+.list_right{
+	width:27%;
+	padding-right:3%;
+	height:180rpx;
+	text-align:right;
+}
+.job_type{
+	height:25%;
+	font-size:30rpx;
+	color:#333;
+}
+.treatment{
+	height:30%;
+}
+.job_company{
+	height:45%;
+	width:100%;
+}
+.treatment_sort{
+	width:100rpx;
+	height:34rpx;
+	background:#f6f6f6;
+	text-align:center;
+	line-height:34rpx;
+	margin-right:10rpx;
+	font-size:20rpx;
+	color:#666;
+}
+.company_img{
+	width:16%;
+	height:100%;
+	align-items:center;
+	display:flex;
+}
+.company_img image{
+	width:60rpx;
+	height:60rpx;
+}
+.company_introuce{
+	width:84%;
+	height:100%;
+}
+.company_name{
+	height:50%;
+	font-size:28rpx;
+	color:#333;
+}
+.send_datail{
+	width:60%;
+}
+.send_tiem{
+	font-size:22rpx;
+	color:#999;
+}
+.send_need{
+	font-size:22rpx;
+	color:#666;
+}
+.payment{
+	height:50%;
+	font-size:30rpx;
+	color:#ed7100;
+}
+.hongbao{
+	height:50%;
+	text-align:right;
+	display:flex;
+	align-items:center;
+	position:relative;
+}
+.numner{
+	width:50rpx;
+	height:50rpx;
+	line-height:50rpx;
+	border-radius:50%;
+	background:#ed7101;
+	align-items:center;
+	text-align:center;
+	color:#fff;
+	font-size:22rpx;
+	float:right;
+	position:absolute;
+	right:0;
+}
+.handle{
+	height:222rpx;
+	width:13%;
+	text-align:center;
+}
+.handle_top{
+	height:50%;
+	width:100%;
+	align-items:center;
+	display:flex;
+	background:#ed7101;
+}
+.handle_bottom{
+	background:#11a983;
+}
+.handle image{
+	width:40rpx;
+	height:40rpx;
+	margin:0 auto;
+}

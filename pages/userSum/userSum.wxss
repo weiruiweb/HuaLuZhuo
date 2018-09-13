@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+.sum{
+	height:478rpx;
+	background:#fff;
+	align-items:center;
+}
+.sum_in{
+	height:368rpx;
+	width:368rpx;
+	border-radius:50%;
+    border:10rpx solid #ee720d;
+    margin:0 auto;
+    align-items:center;
+    text-align:center;
+    display:flex;
+}
+#sum{
+	height:120rpx;
+	display:flex;
+	align-items:center;
+	background:#fff;
+	margin-top:20rpx;
+}
+.sum_list{
+	width:87%;
+	margin:0 auto;
+	height:40rpx;
+	font-size:28rpx;
+	color:#666;
+
+}
+.sum_left{
+	width:60%;
+	height:40rpx;
+}
+.sum_center{
+	width:28%;
+	height:40rpx;
+}
+.sum_right{
+	width:12%;
+	height:40rpx;
+
+	text-align:right;
+}
+.sum_right image{
+	width:11rpx;
+	height:33rpx;
+	
+}

@@ -1,0 +1,65 @@
+<!--userINfor.wxml-->
+<view class="info_img">
+   <view class="user_img">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+</view>
+<view style="height:20rpx;background:#f2f2f2;width:100%;"></view>
+<view class="p40">
+  <view class="infor_list flexRowBetween">
+    <view class="infor_left">
+      用户名:
+    </view>
+    <view class="infor_center">
+      <input  placeholder="华路卓" disabled="{{disabled}}"></input>
+    </view>
+    <view class="infor_right">
+       <image src="/images/edit.png"></image>
+    </view>
+  </view>
+  <view class="infor_list flexRowBetween">
+    <view class="infor_left">
+      性别:
+    </view>
+    <view class="infor_center">
+      <input placeholder="女"  disabled="{{disabled}}"></input>
+    </view>
+    <view class="infor_right">
+       <image src="/images/edit.png"></image>
+    </view>
+  </view>
+  <view class="infor_list flexRowBetween">
+    <view class="infor_left">
+      密码:
+    </view>
+    <view class="infor_center">
+      <input type="password"  placeholder="123456"  disabled="{{disabled}}"></input>
+    </view>
+    <view class="infor_right">
+       <image src="/images/edit.png"></image>
+    </view>
+  </view>
+  <view class="infor_list flexRowBetween">
+    <view class="infor_left">
+      手机号:
+    </view>
+    <view class="infor_center">
+      <input placeholder="188888888888"    disabled="{{disabled}}"></input>
+    </view>
+    <view class="infor_right">
+       <image src="/images/edit.png"></image>
+    </view>
+  </view>
+  <view class="infor_list flexRowBetween">
+    <view class="infor_left">
+      验证码:
+    </view>
+    <view class="infor_center" style="33%">
+      <input placeholder="请输入验证码"    disabled="{{disabled}}"></input>
+    </view>
+    <view class="infor_right" style="width:30%;height:60rpx;border-radius:10rpx;background:#ed7100;text-align:center;font-size:24rpx;color:#fff;line-height:60rpx;margin-left:12%;" >
+      获取验证码
+    </view>
+  </view>
+</view>
+<view class="confirm_bind"  bindtap="intoPathRedi" data-path="/pages/user/user"> 确认绑定 </view>

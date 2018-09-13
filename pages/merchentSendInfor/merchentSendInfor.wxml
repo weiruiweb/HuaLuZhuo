@@ -1,0 +1,113 @@
+<!--user.wxml-->
+<view class="p40">
+  <view class="sum_txt flexRowBetween">
+    <view class="sumTxt">基础信息</view>
+    <view class="pencil"  bindtap="intoPath" data-path="/pages/merchentSendModify/merchentSendModify" >
+      编辑
+      <image src="/images/pencil.png"></image>
+    </view>
+  </view>
+  <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        标题:
+      </view>
+      <input value="华路卓"  disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        薪酬:
+      </view>
+      <input value="华路卓"  disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        职位:
+      </view>
+      <input value="1223233223"  disabled="true"></input>
+    </view>
+   </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        人数:
+      </view>
+      <input value="019-3233223" disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        学历:
+      </view>
+      <input value="@3uiu415222525" disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        经验:
+      </view>
+      <input value="@3uiu415222525" disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        年龄:
+      </view>
+      <input value="24岁" disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        性别:
+      </view>
+      <input value="男" disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        工作地点:
+      </view>
+      <input value="24岁" disabled="true"></input>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        福利待遇:
+      </view>
+      <input value="24岁" disabled="true"></input>
+    </view>
+</view>
+<view class="p40">
+ <view class="sum_txt" style="border:none;">
+      <view class="sumTxt">职位详情</view>
+    </view>
+    <view class="intro flexRowBetween">
+      <view class="intro_edit">
+        <image src="/images/pencil1.png"></image>
+      </view>
+      <textarea value="华路卓咨管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司" disabled="true"></textarea>
+    </view>
+</view>
+<view class="p40">
+ <view class="sum_txt" style="border:none;">
+      <view class="sumTxt">分享设置</view>
+    </view>
+    <view class="reward_money flexRowBetween">
+    <view class="reward_sort">入职10天  300元每人</view>
+    <view class="reward_sort">人数:180</view>
+    <view class="reward_sort">转发:2元每次</view>
+    <view class="reward_sort">次数:1000</view>
+    <view class="reward_sort">截至天数:10天</view>
+  </view>
+</view>
+<view class="p40">
+ <view class="sum_txt" style="border:none;">
+      <view class="sumTxt">悬赏规则</view>
+    </view>
+    <view class="reward_money flex">
+    <view class="reward_sort" style="width:33.33%">入职100元</view>
+    <view class="reward_sort"  style="width:33.33%">人数:180</view>
+    <view class="reward_sort"  style="width:33.33%">转发:2元每次</view>
+    <view class="reward_sort"  style="width:33.33%">次数:1000</view>
+    <view class="reward_sort"  style="width:33.33%">截至天数:10天</view>
+  </view>
+</view>
+<view style="height:100rpx;width:100%;">
+ 
+</view>
+<button class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/userCash/userCash">
+  支付发布
+</button>

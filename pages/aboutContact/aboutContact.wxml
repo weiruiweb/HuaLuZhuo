@@ -1,0 +1,17 @@
+<!--buy.wxml-->
+<view class="banner">
+  <image src="/images/banner1.jpg"></image>
+</view>
+<view class="p40" style="margin-top:60rpx;">
+  <view class="contact_tlt" style="">联系我们</view>
+  <view style="width:48%;margin:20rpx auto;" class="flexRowBetween">
+  	<view style="font-size:26rpx;color:#666;">电话:18888888888</view>
+  	<image src="/images/position.png" style="width:52rpx;height:53rpx;"></image>
+  </view>
+  <view style="text-align:center;">
+  	<view style="font-size:26rpx;color:#666;">邮箱:@15646546</view>
+  </view>
+  <view style="text-align:center;margin-top:20rpx;">
+  	<view style="font-size:26rpx;color:#666;">地址:地址地址地址地址地址地址地址地址地址</view>
+  </view>
+</view>

@@ -1,0 +1,121 @@
+<!--user.wxml-->
+<view style="height:20rpx;width:100%;background:#f2f2f2;"></view>
+<view class="w710">
+    <view class="job_list flexRowBetween">
+      <view class="list_img">
+        <view class="user_img">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+      </view>
+      <view class="list_left">
+        <view class="flex">
+          <view class="job_type avoidOverflow">UI设计师</view>
+          <view class="appointment"> 预约时间:06月07号</view>
+        </view>
+        <view class="treatment flex">
+          <view class="treatment_sort"><image src="/images/resume1.png"></image>西安</view>
+          <view class="treatment_sort"><image src="/images/resume2.png"></image>女</view>
+          <view class="treatment_sort"><image src="/images/resume3.png"></image>大专</view>
+          <view class="treatment_sort"><image src="/images/resume4.png"></image>1-3年</view>
+          <view class="treatment_sort"><image src="/images/resume5.png"></image>20岁</view>
+        </view>
+        <view class="company_introuce">
+        应聘职位:掏粪掏粪掏粪掏粪掏粪掏粪
+        </view>
+      </view>
+      <view class="list_right">
+       09月13号
+      </view>
+    </view>
+  </view>
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">基础信息</view>
+    </view>
+    <view class="gig">
+    <view class="phone_infor" >
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          公司名称:
+        </view>
+        <input value="华路卓" disabled="true"></input>
+        
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          联系人:
+        </view>
+        <input value="华路卓"  disabled="true"></input>
+        
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          手机号:
+        </view>
+        <input value="1223233223"  disabled="true"></input>
+      </view>
+     </view>
+
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          座机号:
+        </view>
+        <input value="019-3233223"  disabled="true"></input>
+        
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          邮箱号:
+        </view>
+        <input value="@3uiu415222525"  disabled="true"></input>
+        
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          企业规模:
+        </view>
+        <input value="019-3233223"  disabled="true"></input>
+        
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          地址:
+        </view>
+        <input value="@3uiu415222525"  disabled="true"></input>
+        
+      </view>
+    </view>
+</view>
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">工作经历</view>
+    </view>
+    <view class="gig">
+      <view><text>●</text>2018.06-2018.10</view>
+      <view class="expericence">
+        <view style="font-size:26rpx;">华路卓咨咨询管理有限公司</view>
+        <view class="detail">1.负责app开发和pc端软件界面</view>
+        <view class="detail">2.负责app开发和pc端软件界面</view>
+        <view class="detail">3.负责app开发和pc端软件界面</view>
+      </view>
+    </view>
+</view>
+<view style="height:90rpx;width:100%;"></view>
+<view class="resume_handle flexRowBetween">
+    <view class="handle1">
+      <view class="handle_in flexRowaround">
+        <image src="/images/resume6.png"></image>
+        <view style="color:#fff;">155555555555</view>
+      </view>
+    </view>
+    <view class="handle2" style="margin:0 1rpx;">
+      <view class="handle_in" >
+        <view style="color:#fff;height:80rpx;line-height:80rpx;">移到已入职</view>
+      </view>
+    </view>
+    <view class="handle2">
+      <view class="handle_in">
+        <view style="color:#fff;height:80rpx;line-height:80rpx;">删除</view>
+      </view>
+    </view>
+  </view>

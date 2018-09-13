@@ -1,0 +1,52 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+}
+.input_before{
+	height:70rpx;
+	line-height:70rpx;
+	overflow:hidden;
+	font-size:28rpx;
+	color:#333;	
+}
+.bank_card input{
+	width:96%;
+	padding:0 2%;
+	border:solid 1px #ed7101;
+	height:60rpx;
+	line-height:60rpx;
+	font-size:26rpx;
+	border-radius:10rpx;
+}
+.bank_address{
+	height:288rpx;
+	width:94%;
+	padding:0 3%;
+	border:solid 1px #ed7101;
+	border-radius:10rpx;
+}
+.adreess_provence{
+	width:15%;
+	font-size:28rpx;
+	color:#333;
+}
+.adreess_input{
+	width:85%;
+	font-size:#666;
+	font-size:26rpx;
+}
+.confirm_bind{
+	width:100%;
+	height:84rpx;
+	background:#ed7101;
+	line-height:84rpx;
+	font-size:30rpx;
+	color:#fff;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+}

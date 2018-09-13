@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class="index_tab flexRowBetween">
+    <view class="tab_item {{currentId == 0?'this_tab':''}}" data-id="0" bindtap="changeTab">
+      已拒绝
+    </view>
+    <view  class="tab_item {{currentId == 1?'this_tab':''}}" data-id="1"  bindtap="changeTab">
+      待面试
+    </view>
+    <view class="tab_item {{currentId == 2?'this_tab':''}}" data-id="2" bindtap="changeTab">
+      已入职
+    </view>
+    <view  class="tab_item {{currentId == 3?'this_tab':''}}" data-id="3"  bindtap="changeTab">
+      已离职
+    </view>
+</view>
+
+<view class="job">
+  <view class="flexRowBetween" style="height:222rpx;overflow:hidden;width:100%;margin-bottom:20rpx;">
+    <view style="width:87%;height:222rpx;">
+      <view class="w710">
+        <view class="job_list flexRowBetween">
+          <view class="list_left">
+            <view class="job_type avoidOverflow">UI设计师</view>
+            <view class="treatment flex">
+              <view class="treatment_sort"><image src="/images/resume1.png"></image>西安</view>
+              <view class="treatment_sort"><image src="/images/resume2.png"></image>女</view>
+            </view>
+             <view class="treatment flex">
+              <view class="treatment_sort"><image src="/images/resume4.png"></image>1-3年</view>
+              <view class="treatment_sort"><image src="/images/resume5.png"></image>24岁</view>
+            </view>
+            <view class="job_company flex">
+              <view class="company_img">
+                <image src="/images/navbar2-a.png"></image>
+              </view>
+              <view class="company_name avoidOverflow">华路卓咨询有限公司</view>
+            </view>
+          </view>
+          <view class="list_right">
+            <view class="payment">2K-10K</view>
+            <view class="hongbao">
+                <view style="text-ailgn:right;">06月5号</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="handle">
+      <view class="handle_top">
+          <image src="/images/interview2.png"></image>
+      </view>
+      <view class="handle_top handle_bottom"><image src="/images/interview1.png"></image></view>
+    </view>
+  </view>
+</view>
+
+
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;margin-bottom:120rpx;">
+  技术支持:西安纯粹科技有限公司
+</view>

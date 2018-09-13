@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/buy/buy",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/userSum/userSum",
+    "pages/userSumIn/userSumIn",
+    "pages/userSumNow/userSumNow",
+    "pages/userSumOut/userSumOut",
+    "pages/userNext/userNext", 
+    "pages/userInfor/userInfor",
+    "pages/userCash/userCash",
+    "pages/userCollect/userCollect",
+    "pages/userMerchants/userMerchants",
+    "pages/userMakeMoney/userMakeMoney",
+    "pages/userInterview/userInterview",
+    "pages/userPhoneCard/userPhoneCard",
+    "pages/userMerchenIn/userMerchenIn",
+    "pages/userCashCard/userCashCard",
+    "pages/userCashNow/userCashNow",
+    "pages/userCashNext/userCashNext",
+    "pages/merchantInfor/merchantInfor",
+    "pages/merchantModify/merchantModify",
+    "pages/merchentResume/merchentResume",
+    "pages/merchentInvite/merchentInvite",
+    "pages/merchentSendInfor/merchentSendInfor",
+    "pages/merchentSendModify/merchentSendModify",
+    "pages/merchentResumeDetail/merchentResumeDetail",
+    "pages/about/about",
+    "pages/aboutIntroduce/aboutIntroduce",
+    "pages/aboutContact/aboutContact",
+    "pages/aboutHelp/aboutHelp"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ed7100",
+    "navigationBarTitleText": "找工作",
+    "navigationBarTextStyle": "#fff"
+  }
+}

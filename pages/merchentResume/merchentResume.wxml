@@ -1,0 +1,100 @@
+<!--index.wxml-->
+<view class="job">
+  <view class="w710"  bindtap="intoPath" data-path="/pages/merchentResumeDetail/merchentResumeDetail">
+    <view class="job_list flexRowBetween">
+      <view class="list_img">
+        <view class="user_img">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+      </view>
+      <view class="list_left">
+        <view class="flex">
+          <view class="job_type avoidOverflow">UI设计师</view>
+          <view class="appointment"> 预约时间:06月07号</view>
+        </view>
+        <view class="treatment flex">
+          <view class="treatment_sort"><image src="/images/resume1.png"></image>西安</view>
+          <view class="treatment_sort"><image src="/images/resume2.png"></image>女</view>
+          <view class="treatment_sort"><image src="/images/resume3.png"></image>大专</view>
+          <view class="treatment_sort"><image src="/images/resume4.png"></image>1-3年</view>
+          <view class="treatment_sort"><image src="/images/resume5.png"></image>20岁</view>
+        </view>
+        <view class="company_introuce">
+        应聘职位:掏粪掏粪掏粪掏粪掏粪掏粪
+        </view>
+      </view>
+      <view class="list_right">
+       09月13号
+      </view>
+    </view>
+  </view>
+  <view class="resume_handle flexRowBetween">
+    <view class="handle1">
+      <view class="handle_in flexRowaround">
+        <image src="/images/resume6.png"></image>
+        <view style="color:#fff;">155555555555</view>
+      </view>
+    </view>
+    <view class="handle2" style="margin:0 1rpx;">
+      <view class="handle_in flexRowaround" >
+        <image src="/images/resume7.png"></image>
+        <view style="color:#fff;">入职</view>
+      </view>
+    </view>
+    <view class="handle2">
+      <view class="handle_in flexRowaround">
+        <image src="/images/resume8.png"></image>
+        <view style="color:#fff;">删除</view>
+      </view>
+    </view>
+  </view>
+  <view class="w710">
+    <view class="job_list flexRowBetween">
+      <view class="list_img">
+        <view class="user_img">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+      </view>
+      <view class="list_left">
+        <view class="flex">
+          <view class="job_type avoidOverflow">UI设计师</view>
+          <view class="appointment"> 预约时间:06月07号</view>
+        </view>
+        <view class="treatment flex">
+          <view class="treatment_sort"><image src="/images/resume1.png"></image>西安</view>
+          <view class="treatment_sort"><image src="/images/resume2.png"></image>女</view>
+          <view class="treatment_sort"><image src="/images/resume3.png"></image>大专</view>
+          <view class="treatment_sort"><image src="/images/resume4.png"></image>1-3年</view>
+          <view class="treatment_sort"><image src="/images/resume5.png"></image>20岁</view>
+        </view>
+        <view class="company_introuce">
+        应聘职位:掏粪掏粪掏粪掏粪掏粪掏粪
+        </view>
+      </view>
+      <view class="list_right">
+       09月13号
+      </view>
+    </view>
+  </view>
+  <view class="resume_handle flexRowBetween">
+    <view class="handle1">
+      <view class="handle_in flexRowaround">
+        <image src="/images/resume6.png"></image>
+        <view style="color:#fff;">155555555555</view>
+      </view>
+    </view>
+    <view class="handle2" style="margin:0 1rpx;">
+      <view class="handle_in flexRowaround" >
+        <image src="/images/resume7.png"></image>
+        <view style="color:#fff;">入职</view>
+      </view>
+    </view>
+    <view class="handle2">
+      <view class="handle_in flexRowaround">
+        <image src="/images/resume8.png"></image>
+        <view style="color:#fff;">删除</view>
+      </view>
+    </view>
+  </view>
+</view>
+

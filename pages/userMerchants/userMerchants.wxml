@@ -1,0 +1,107 @@
+<!--user.wxml-->
+<view class="banner">
+  <view class="p40">
+    <view style="display:flex;justify-content:space-between;;">
+      <view class="banner_top">
+        <image src="/images/tixing.png"></image>
+      </view>
+      <view style="font-size:28rpx;color:#fff;" bindtap="intoPath" data-path="/pages/login/login">退出</view>
+    </view>
+    <view class="banner_bottom flexRowBetween">
+      <view class="user_left">
+        <view style="font-size:46rpx;color:#fff;">
+          华路卓
+        </view>
+        <view style="font-size:24rpx;color:#fff;margin-top:10rpx;">个人简历 >> </view>
+      </view>
+      <view class="user_right">
+          <view class="user_img">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="user_sort">
+  <view class="user_item flexRowBetween"  bindtap="intoPath" data-path="/pages/userSum/userSum">
+    <view style="width:98%;">
+     <view class="item_bottom">我的资产</view>
+    </view>
+    <view class="vertical_line">
+      <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+    </view>
+  </view>
+  <view class="user_item flexRowBetween"  bindtap="intoPath" data-path="/pages/userSumIn/userSumIn">
+    <view style="width:98%;">
+     <view class="item_bottom">充值记录</view>
+    </view>
+    <view class="vertical_line">
+      <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+    </view>
+  </view>
+  <view class="user_item flexRowBetween" bindtap="intoPath" data-path="/pages/userSumOut/userSumOut">
+     <view style="width:98%;">
+      <view class="item_bottom">支出记录</view>
+    </view>
+  </view>
+</view>
+<view class="user flexRowBetween">
+  <view class="user_module"  bindtap="intoPath" data-path="/pages/merchantInfor/merchantInfor">
+      <view class="module_img">
+        <image src="/images/user_icon1.png"></image>
+      </view>
+      <view class="module_text">商家信息</view>
+  </view>
+  <view class="user_module"  bindtap="intoPath" data-path="/pages/merchentResume/merchentResume">
+    <view  style="height:100%;border-left:solid 1px #e0e0e0;border-right:solid 1px #e0e0e0;">
+      <view class="module_img">
+        <image src="/images/user_icon2.png"></image>
+      </view>
+      <view class="module_text">收到简历</view>
+    </view>
+  </view>
+  <view class="user_module"  bindtap="intoPath" data-path="/pages/merchentInvite/merchentInvite">
+      <view class="module_img">
+        <image src="/images/user_icon3.png"></image>
+      </view>
+      <view class="module_text">招聘发布</view>
+  </view>
+  <view class="user_module"   bindtap="intoPath" data-path="/pages/merchentSendInfor/merchentSendInfor">
+      <view class="module_img">
+        <image src="/images/user_icon4.png"></image>
+      </view>
+      <view class="module_text">发布信息</view>
+  </view>
+  <view class="user_module"   bindtap="intoPath" data-path="/pages/userCollect/userCollect">
+    <view  style="height:100%;border-left:solid 1px #e0e0e0;border-right:solid 1px #e0e0e0;">
+      <view class="module_img">
+        <image src="/images/user_icon5.png"></image>
+      </view>
+      <view class="module_text">职位管理</view>
+    </view>
+  </view>
+  <view class="user_module">
+      
+  </view>
+</view>
+<view class="navbar">
+    <view class="navbar_item"  bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png" style="width:40rpx;height:40rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">找工作</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+        <view class="nav_img">
+           <image src="/images/navbar2-a.png" style="width:40rpx;height:40rpx;"></image>
+        </view>
+        <view class="text  this-text" style="{{fonts[2].font}}">个人中心</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/about/about">
+        <view class="nav_img">
+            <image src="/images/navbar3.png" style="width:40rpx;height:40rpx;"></image>
+        </view>
+        <view class="text" style="{{fonts[2].font}}">了解我们</view>
+    </view>
+</view>
+

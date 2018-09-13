@@ -1,0 +1,8 @@
+<!--buy.wxml-->
+<view class="banner">
+  <image src="/images/banner1.jpg"></image>
+</view>
+<view class="p40" style="margin-top:60rpx;">
+  <view style="height:40rpx;line-height:40rpx;border-left:solid 2px #ed7100;font-size:30rpx;color:#444;padding-left:30rpx;">华路卓企业咨询管理有限公司</view>
+  <view style="padding-left:32rpx;font-size:24rpx;color:#666;margin-top:20rpx;line-height:40rpx;">华路卓企业咨询管理有限公司华路卓企业咨询管理有限公司华路卓企业咨询管理有限公司华路卓企业咨询管理有限公司华路卓企业咨询管理有限公司</view>
+</view>
