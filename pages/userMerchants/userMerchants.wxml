@@ -72,7 +72,7 @@
       </view>
       <view class="module_text">发布信息</view>
   </view>
-  <view class="user_module"   bindtap="intoPath" data-path="/pages/userCollect/userCollect">
+  <view class="user_module"   bindtap="intoPath" data-path="/pages/merchentJobManage/merchentJobManage">
     <view  style="height:100%;border-left:solid 1px #e0e0e0;border-right:solid 1px #e0e0e0;">
       <view class="module_img">
         <image src="/images/user_icon5.png"></image>

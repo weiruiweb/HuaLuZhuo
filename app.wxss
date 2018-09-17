@@ -9,6 +9,12 @@ page{
 	justify-content:space-between;
 	align-items:center;
 }
+.flexRowCenter{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
 .flexRowaround{
 	display:flex;
 	flex-direction:row;
@@ -46,9 +52,8 @@ page{
 	background:#fff;
 	display:flex;
 	justify-content:center;
-	border-top:solid 1px #dbdbdb;
+	border-top:solid 1px #ed7101;
 	align-items:center;
-	box-shadow:5rpx 0 15rpx #84ddf3;
 }
 .nav_img image{
 	width:46rpx;

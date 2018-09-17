@@ -1,0 +1,149 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+	padding-bottom:60rpx;
+}
+view{
+	font-size:26rpx;
+	color:#333;
+}
+.w710{
+	height:205rpx;
+	align-items:center;
+	display:flex;
+	background:#fff;
+	overflow:hidden;
+}
+.sum_txt{
+	height:90rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+}
+.sumTxt{
+	height:40rpx;
+	padding-left:20rpx;
+	font-size:28rpx;
+	color:#333;
+	font-weight:bold;
+	border-left:solid 4rpx #ed7101;
+}
+.gig{
+	border:solid 1px #e0e0e0;
+	border-radius:10rpx;
+	position:relative;
+	padding:20rpx 0;
+}
+.education{
+	padding:0rpx 40rpx;
+	position:relative;
+}
+.education .add{
+	position:absolute;
+	top:10rpx;
+	right:0;
+}
+.gig text{
+	color:#ed7101;
+	font-size:30rpx;
+	margin-right:20rpx;
+}
+.expericence{
+	border-left:dashed 1px #e0e0e0;
+	padding-left:20rpx;
+	padding-bottom:20rpx;
+	margin-left:10rpx;
+}
+.detail{
+	font-size:24rpx;
+	margin-top:10rpx;
+	color:#666;
+}
+.phone_note{
+	margin-top:28rpx;
+	
+	line-height:38rpx;
+}
+.phone_infor{
+	margin-top:20rpx;
+}
+.input_before{
+	width:24%;
+	height:68rpx;
+	line-height:68rpx;
+	overflow:hidden;
+	font-size:28rpx;
+	color:#333;	
+}
+.bank_card{
+	width:100%;
+	height:68rpx;
+}
+.bank_card .resume_info{
+	width:72%;
+	padding:0 2%;
+	height:68rpx;
+	line-height:68rpx;
+	font-size:26rpx;
+}
+.pencil{
+	width:23%;
+	text-align:right;
+}
+.pencil image{
+	width:24rpx;
+	height:24rpx;
+	margin-right:20rpx;
+}
+.intro{
+	line-height:40rpx;
+}
+
+.input_left{
+	width:180rpx;
+}
+.confirm_bind{
+	width:100%;
+	height:84rpx;
+	background:#ed7101;
+	line-height:84rpx;
+	font-size:30rpx;
+	color:#fff;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+}
+
+.intro{
+	height:350rpx;
+	border-radius:10rpx;
+	border:solid 1px #e0e0e0;
+}
+.intro image{
+	width:24rpx;
+	height:24rpx;
+	margin:0 auto;
+}
+.intro textarea{
+	width:94%;
+	padding:10rpx 3%;
+	heihgt:350rpx;
+	overflow:auto;
+}
+.intro_edit{
+	width:10%;
+	text-align:center;
+	height:100%;
+	background:#ed7101;
+	align-items:center;
+	display:flex;
+}
+.add image{
+	width:36rpx;
+	height:36rpx;
+	margin-right:10rpx;
+}

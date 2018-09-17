@@ -1,0 +1,279 @@
+/**index.wxss**/
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	color:#666;
+}
+.w710{
+	align-items:center;
+	display:flex;
+}
+.sum_txt{
+	height:90rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+	border-bottom:solid 1px #e0e0e0;
+}
+.sumTxt{
+	height:40rpx;
+	padding-left:20rpx;
+	font-size:28rpx;
+	color:#333;
+	font-weight:bold;
+	border-left:solid 4rpx #ed7101;
+}
+.pencil{
+	font-size:22rpx;
+	color:#666;
+}
+.job{
+	align-items:center;
+	display:flex;
+	height:300rpx;
+	border-bottom:solid 1px #d9d9d9;
+}
+.job_list{
+	height:260rpx;
+	width:100%;
+}
+.list_left{
+	width:100%;
+	height:260rpx;
+}
+.list_right{
+	width:30%;
+	height:260rpx;
+	text-align:right;
+}
+.job_type{
+	height:24%;
+	font-size:30rpx;
+	color:#333;
+	align-items:center;
+	display:flex;
+}
+.treatment{
+	height:30%;
+}
+.job_company{
+	height:58%;
+	width:100%;
+	display:flex;
+
+}
+.treatment_sort{
+	width:100rpx;
+	height:34rpx;
+	background:#f6f6f6;
+	text-align:center;
+	line-height:34rpx;
+	margin-right:10rpx;
+	font-size:20rpx;
+	color:#666;
+}
+.company_img{
+	width:16%;
+	height:100%;
+	align-items:center;
+	display:flex;
+}
+.company_img image{
+	width:60rpx;
+	height:60rpx;
+}
+.company_introuce{
+	width:84%;
+	height:100%;
+}
+.company_name{
+	font-size:28rpx;
+	color:#333;
+	height:33.33%;
+}
+.send_datail{
+	width:60%;
+}
+.send_tiem{
+	font-size:20rpx;
+	color:#999;
+}
+.send_need{
+	font-size:22rpx;
+	color:#666;
+}
+.payment{
+	height:50%;
+	font-size:30rpx;
+	color:#ed7100;
+}
+.hongbao{
+	height:100%;
+	display:flex;
+	align-items:center;
+	position:relative;
+}
+.hongbao_money{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:50%;
+	font-size:22rpx;
+	text-align:center;
+	color:#fff;
+}
+.hongbao image{
+	width:66rpx;
+	height:82rpx;
+}
+.address{
+	font-size:26rpx;
+	color:#3d3d3d;
+}
+.time{
+	font-size:22rpx;
+	color:#666;
+}
+.job_address{
+	height:22%;
+}
+.sort_items{
+	font-size:26rpx;
+	margin-right:15rpx;
+	color:#999;
+}
+.sort_items text{
+	margin-left:10rpx;
+	color:#000;
+}
+.sort{
+	width:100%;
+	align-items:center;
+}
+.reward{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.reward_detail{
+	padding:20rpx 0;
+}
+.reward_detail view{
+	font-size:26rpx;
+	color:#666;
+	line-height:50rpx;
+}
+.share .share1{
+	width:30%;
+	height:60rpx;
+	font-size:24rpx;
+	line-height:60rpx;
+	text-align:center;
+}
+.share2{
+	background:#ed7101;
+	border-radius:10rpx;
+	color:#fff;
+
+}
+.share1 text{
+	
+	background:#e33424;
+	margin:0 10rpx;
+	padding:0 5rpx;
+	color:#fff;
+	font-size:26rpx;
+	border-radius:10rpx;
+}
+.footer1 image{
+	width:52rpx;
+	height:52rpx;
+	margin:0 auto;
+}
+.footer{
+	position:fixed;
+	height:100rpx;
+	line-height:100rpx;
+	background:#ed7101;
+	width:100%;
+	bottom:0;
+	font-size:28rpx;
+	color:#fff;
+}
+.footer1{
+	width:19%;
+	text-align:center;
+	height:100%;
+	align-items:center;
+	display:flex;
+}
+.footer2{
+	width:24%;
+	text-align:center;
+	color:#fff;
+}
+.footer3{
+	background:#fff;
+	color:#ed7101;
+	height:100%;
+	text-align:center;
+	border-right:solid 1px #ed7101;
+	width:100%;
+}
+
+.mask{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:999;
+	overflow:hidden;
+
+}
+.mask_cont{
+	width:100%;
+	position:absolute;
+	top:50%;
+	z-index:999;
+	overflow:hidden;
+}
+.tishi_cont{
+	width:465rpx;height:450rpx;background:#fff;margin:0 auto;border-radius:10rpx;z-index:999;padding:20rpx 0;
+	box-shadow:0 0 10rpx #666;
+	
+}
+.tishi_in{
+	height:78%;
+	padding:0  30rpx;
+	background:#fff
+}
+.tishi_tltl{
+	font-size:30rpx;
+	color:#333;
+	text-align:center;
+	line-height:80rpx;
+}
+.tishi_txt{
+	height:75rpx;
+	line-height:75rpx;
+	font-size:28rpx;
+	border-bottom:solid 1px #ed7101;
+}
+.tishi_txt input{
+	width:80%;
+}
+
+.input_before{
+	width:20%;
+}
+.submit_info{
+	height:60rpx;
+	line-height:60rpx;
+	font-size:30rpx;
+	margin-top:52rpx;
+}
+.tishi_cont image{
+	width:282rpx;
+	height:282rpx;
+}

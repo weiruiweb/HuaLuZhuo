@@ -1,0 +1,124 @@
+<!--index.wxml-->
+<view class="job">
+  <view class="w710">
+    <view class="job_list flexRowBetween">
+      <view class="list_left">
+        <view class="flexRowBetween"> <view class="job_type avoidOverflow">UI设计师</view><view style="font-size:28rpx;color:#ed7101">2k-4k</view></view>
+       
+        <view class="job_address flexRowBetween">
+          <view class="address">工作地点：高新大都荟</view>
+          <view class="time">06月05号</view>
+        </view>
+        <view class="job_company">
+          <view class="sort">
+            <view class="company_introuce">
+               <view class="company_name flex">
+                  <view class="sort_items">人数:<text>3-4人</text></view>
+                  <view class="sort_items">年龄:<text>31-40</text></view>
+                  <view class="sort_items">性别:<text>男女不限</text></view>
+               </view>
+               <view class="company_name flex">
+                  <view class="sort_items">学历:<text>大专</text></view>
+                  <view class="sort_items">经验:<text>3-4年</text></view>
+               </view>
+               <view class="treatment flex">
+                  <view class="treatment_sort">五险一金</view>
+                  <view class="treatment_sort">加班补偿</view>
+                  <view class="treatment_sort">交通方便</view>
+                </view>
+            </view>
+          </view>
+          <view class="hongbao">
+          <image src="/images/hongbao.png"></image>
+          <view class="hongbao_money">¥300</view>
+        </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="w710">
+  <view class="reward">  
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">奖励</view>
+      <view class="pencil">
+        悬赏人数：100人
+      </view>
+    </view>
+    <view class="reward_detail">
+      <view>如果您成功入职满一个月，可获得奖金100元</view> 
+      <view>职位转发微信朋友一次，获得2元， </view>
+      <view>微信朋友成功入职，您获200元 </view>
+    </view>
+    <view class="share flexRowBetween">
+      <view class="share1 share2">入职·300元</view>
+      <view class="share1 share2">转发·2元</view>
+      <view class="share1">距结束<text>300</text>小时</view>
+    </view>
+  </view>
+</view>
+<view class="w710">
+  <view class="reward">  
+    <view class="sum_txt">
+      <view class="sumTxt">职位详情</view>
+    </view>
+    <view class="reward_detail">
+      <view>1. 如果您成功入职满一个月，可获得奖金100元</view> 
+      <view>2. 职位转发微信朋友一次，获得2元， </view>
+      <view>3. 微信朋友成功入职，您获200元 </view>
+    </view>
+  </view>
+</view>
+<view class="w710">
+  <view class="reward">  
+    <view class="sum_txt">
+      <view class="sumTxt">公司简介</view>
+    </view>
+    <view class="reward_detail">
+      <view>广州华路卓企业管理咨询有限公司是一家集网络技术研究、开发;计算机技术开发、技术服务;软件开发;信息技术咨询服务为一体的综合性互</view>
+    </view>
+  </view>
+</view>
+<view class="mask" wx:if="{{is_show||is_show1}}" catchtouchmove="true" bindtap="mask">
+</view>
+<view class="tishi" wx:if="{{is_show}}"  catchtouchmove="true">
+  <view class="mask_cont" >
+    <view class="tishi_cont">
+        <view class="tishi_tltl">预约报名</view>
+        <view class="tishi_in" style="">
+          <view class="tishi_txt flexRowBetween">
+            <view class="input_before">姓名:</view>
+            <input value=""></input>
+          </view>
+          <view class="tishi_txt flexRowBetween">
+            <view class="input_before">电话:</view>
+            <input value=""></input>
+          </view>
+          <view class="tishi_txt flexRowBetween">
+            <view class="input_before">时间:</view>
+            <input value=""></input>
+          </view>
+          <button class="submit_info" bindtap="appoint">预约</button>
+        </view>
+    </view>
+  </view>
+</view>
+<view class="tishi" wx:if="{{is_show1}}"  catchtouchmove="true">
+  <view class="mask_cont" >
+    <view class="tishi_cont" style="align-items:center;display:flex;">
+        <image src="/images/qcored.png" style="margin:0 auto;"></image>
+    </view>
+  </view>
+</view>
+<view class="map">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" circles="{{circles}}" bindregionchange="regionchange" show-location style="width: 100%; height: 400rpx;">
+</map>
+</view>
+<view style="width:100%;height:120rpx;"></view>
+<view class="footer flexRowBetween">
+  <view class="footer1"><image src="/images/collect.png"></image></view>
+  <view class="footer1"><image src="/images/phone.png"></image></view>
+  <view class="footer1 "><view class="footer3"  bindtap="qcored">分享赚钱</view></view>
+  <view class="footer1 "><view class="footer3"  bindtap="signTo">立即报名</view></view>
+  <view class="footer2">投递简历</view>
+</view>

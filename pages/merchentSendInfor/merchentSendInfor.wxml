@@ -98,16 +98,18 @@
       <view class="sumTxt">悬赏规则</view>
     </view>
     <view class="reward_money flex">
-    <view class="reward_sort" style="width:33.33%">入职100元</view>
-    <view class="reward_sort"  style="width:33.33%">人数:180</view>
-    <view class="reward_sort"  style="width:33.33%">转发:2元每次</view>
-    <view class="reward_sort"  style="width:33.33%">次数:1000</view>
-    <view class="reward_sort"  style="width:33.33%">截至天数:10天</view>
-  </view>
+      <view class="reward_sort" style="width:33.33%">入职100元</view>
+      <view class="reward_sort"  style="width:33.33%">人数:180</view>
+      <view class="reward_sort"  style="width:33.33%">转发:2元每次</view>
+    </view>
+    <view class="reward_money flex" style="width:100%;border-bottom:solid 1px #e0e0e0;">
+      <view class="reward_sort"  style="width:33.33%">次数:1000</view>
+      <view class="reward_sort"  style="width:33.33%">截至天数:10天</view>
+    </view>
 </view>
 <view style="height:100rpx;width:100%;">
  
 </view>
-<button class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/userCash/userCash">
+<button class="confirm_bind"   bindtap="intoPath" data-path="/pages/merchentSendPayment/merchentSendPayment">
   支付发布
 </button>

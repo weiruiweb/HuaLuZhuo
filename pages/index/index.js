@@ -6,9 +6,18 @@ const app = getApp();
 Page({
   data: {
     currentId:0,
+    is_choose:'',
+    location: '西安',
+    is_select:'0',
   },
   //事件处理函数
- 
+ select_this:function(e){
+  var current = e.currentTarget.dataset.current;
+    this.setData({
+      is_select:current
+    })
+ },
+
   onLoad(options) {
     const self = this;
     self.data.paginate = api.cloneForm(getApp().globalData.paginate);
@@ -19,6 +28,12 @@ Page({
     var current = e.currentTarget.dataset.id;
     this.setData({
       currentId:current
+    })
+  }, 
+  changeSort:function(e){
+    var current = e.currentTarget.dataset.id;
+    this.setData({
+      is_choose:current
     })
   },
 

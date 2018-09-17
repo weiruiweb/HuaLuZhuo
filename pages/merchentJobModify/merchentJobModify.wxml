@@ -1,0 +1,155 @@
+<!--user.wxml-->
+<view class="p40">
+  <view class="sum_txt flexRowBetween">
+    <view class="sumTxt">基础信息</view>
+    <view class="pencil">
+      <image src="/images/deteil.png" style=" margin-left:20rpx;width:36rpx;height:36rpx;"></image>
+    </view>
+  </view>
+  <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        岗位:
+      </view>
+      <input value="华路卓"  disabled="{{is_edit == 0?'false':'true'}}"></input>
+      <view class="pencil" data-id="0" bindtap="edit">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        薪资:
+      </view>
+      <input value="华路卓"  disabled="{{is_edit == 1?'false':'true'}}"></input>
+      <view class="pencil" data-id="1"  bindtap="edit">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        福利:
+      </view>
+      <input value="1223233223"  disabled="{{is_edit == 0?'false':'true'}}"></input>
+      <view class="pencil"  data-id="2"  bindtap="edit">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+   </view>
+   <view class="phone_infor">
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        工作地点:
+      </view>
+      <input value="019-3233223"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        学历:
+      </view>
+      <input value="@3uiu415222525"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+   </view>
+   <view class="phone_infor" >
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        工作经验:
+      </view>
+      <input value="019-3233223"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        年龄:
+      </view>
+      <input value="@3uiu415222525"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        性别:
+      </view>
+      <input value="@3uiu415222525"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+   </view>
+    <view class="sum_txt" style="border:none;">
+      <view class="sumTxt">职位详情</view>
+    </view>
+    <view class="intro flexRowBetween">
+      <view class="intro_edit">
+        <image src="/images/pencil1.png"></image>
+      </view>
+      <textarea value="华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司华路卓咨询管理有限责任公司" disabled="true"></textarea>
+    </view>
+    
+  <view class="sum_txt">
+    <view class="sumTxt">分享设置</view>
+  </view>
+  <view class="phone_infor">
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        分享金额:
+      </view>
+      <input value="019-3233223"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        数量设置:
+      </view>
+      <input value="019-3233223"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        入职奖励:
+      </view>
+      <input value="@3uiu415222525"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="phone_infor">
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        入职时间:
+      </view>
+      <input value="06月5日"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_before">
+        转发金额:
+      </view>
+      <input value="2元"></input>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view style="height:100rpx;width:100%;">
+ 
+</view>
+<view class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/merchentJobManage/merchentJobManage">
+  确认修改
+</view>

@@ -1,0 +1,82 @@
+<!--user.wxml-->
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">基础信息</view>
+      <view class="pencil">
+        <image src="/images/pencil.png"></image>编辑
+      </view>
+    </view>
+    <view class="p40 gig">
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         真实姓名:
+        </view>
+        <view class="resume_info">
+          <input placeholder="请输入真实姓名" value=""></input>
+        </view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         性 别:
+        </view>
+        <view class="resume_info">
+          <input placeholder="请输入性别"  value=""></input>
+        </view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         出生日期:
+        </view>
+        <view class="resume_info">
+          <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+            <view class="picker flexRowBetween">
+             <view>{{date}}</view><image src="/images/choose_icon.png"></image>
+            </view>
+        </picker>
+        </view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         身份证号:
+        </view>
+        <view class="resume_info">
+          <input placeholder="请输入身份证号"  value=""></input>
+        </view>
+      </view>
+  </view>
+</view>
+<view class="p40">
+  <view class="sum_txt flexRowBetween">
+    <view class="sumTxt">其他信息</view>
+  </view>
+  <view class="p40 gig">
+    <view class="bank_card flexRowBetween">
+      <view class="input_note">*</view>
+      <view class="input_before">
+       高中/中专:
+      </view>
+      <view class="resume_info flexRowBetween">
+        <input placeholder="请输入性别"></input>
+        <image src="/images/choose_icon.png"></image>
+      </view>
+    </view>
+    <view class="bank_card flexRowBetween">
+      <view class="input_note">*</view>
+      <view class="input_before">
+       工作年限:
+      </view>
+      <view class="resume_info flexRowBetween">
+        <input placeholder="应届生"></input>
+        <image src="/images/choose_icon.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="btn flexRowBetween">
+    <button bindtap="setValue" >取消</button>
+    <button class="save" style="background:#ed7101;"  bindtap="intoPathRedi" data-path="/pages/userResume/userResume">保存</button>
+  </view>
+</view>

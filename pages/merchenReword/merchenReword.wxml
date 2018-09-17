@@ -1,0 +1,51 @@
+<!--user.wxml-->
+<view class="banner">
+  <view class="p40">
+      <view class="banner_bottom flexRowBetween">
+        <view class="user_left">
+          <view style="font-size:46rpx;color:#fff;">
+            奖金总额:200000
+          </view>
+        </view>
+        <view class="user_right">
+            <view class="user_img">
+              <open-data type="userAvatarUrl"></open-data>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>
+<view class="user_sort">
+  <view class="user_item flexRowBetween">
+    <view style="width:98%;">
+     <view class="item_bottom">金额</view>
+    </view>
+    <view class="vertical_line">
+      <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+    </view>
+  </view>
+  <view class="user_item flexRowBetween">
+    <view style="width:98%;">
+     <view class="item_bottom">原因</view>
+    </view>
+    <view class="vertical_line">
+      <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+    </view>
+  </view>
+  <view class="user_item"   bindtap="intoPath" data-path="/pages/userCashNext/userCashNext">
+     <view class="item_bottom" style="height:75rpx;line-height:75rpx;">时间</view>
+  </view>
+</view>
+
+<view class="reward">
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item">200元</view>
+      <view class="tlt_item">转发</view>
+      <view class="tlt_item"> 2016.09.08</view>
+    </view>
+    <view class="cash_cont flexRowBetween">
+      <view class="tlt_item">200元</view>
+      <view class="tlt_item">入职</view>
+      <view class="tlt_item"> 2016.09.08</view>
+    </view>
+</view>

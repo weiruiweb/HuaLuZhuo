@@ -1,0 +1,150 @@
+<!--user.wxml-->
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">基础信息</view>
+      <view class="pencil" bindtap="intoPath"  data-path="/pages/userResumeBasce/userResumeBasce">
+        <image src="/images/pencil.png"></image>编辑
+      </view>
+    </view>
+    <view class="gig" style="padding-left:40rpx;">
+    <view class="phone_infor" >
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          姓名:
+        </view>
+        <view class="resume_info">华路卓</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          性别:
+        </view>
+        <view  class="resume_info">女</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          婚姻状况:
+        </view>
+        <view  class="resume_info">否</view>
+      </view>
+     </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          出生年月:
+        </view>
+        <view  class="resume_info"> 1992年3月</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          身份证号:
+        </view>
+        <view  class="resume_info">6166878799888890</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          最高学历:
+        </view>
+        <view  class="resume_info">博士</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          工作经验:
+        </view>
+        <view  class="resume_info">1年</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          目前状态:
+        </view>
+        <view  class="resume_info">已离职</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          期望薪资:
+        </view>
+        <view  class="resume_info">1年</view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_before">
+          期望地区:
+        </view>
+        <view  class="resume_info">西安</view>
+      </view>
+    </view>
+</view>
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">工作经历</view>
+      <view class="add" bindtap="intoPath" data-path="/pages/userResumeExper/userResumeExper">
+        <image src="/images/add.png"></image>
+      </view>
+    </view>
+    <view class="gig">
+      <view class="education">
+        <view class="flexRowBetween">
+          <view><text>●</text>2018.06-2018.10</view>
+        </view>
+        <view class="add">
+            <image src="/images/minus.png"></image>
+          </view>
+        <view class="expericence">
+          <view style="font-size:26rpx;">华路卓咨咨询管理有限公司</view>
+          <view class="detail">1.负责app开发和pc端软件界面</view>
+          <view class="detail">2.负责app开发和pc端软件界面</view>
+          <view class="detail">3.负责app开发和pc端软件界面</view>
+        </view>
+      </view>
+      <view class="education">
+        <view class="flexRowBetween">
+          <view><text>●</text>2018.06-2018.10</view>
+        </view>
+        <view class="add">
+            <image src="/images/minus.png"></image>
+          </view>
+        <view class="expericence">
+          <view style="font-size:26rpx;">华路卓咨咨询管理有限公司</view>
+          <view class="detail">1.负责app开发和pc端软件界面</view>
+          <view class="detail">2.负责app开发和pc端软件界面</view>
+          <view class="detail">3.负责app开发和pc端软件界面</view>
+        </view>
+      </view>
+    </view>
+</view>
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">教育经历</view>
+      <view class="add"  bindtap="intoPath" data-path="/pages/userResumeBasce/userResumeBasce">
+        <image src="/images/add.png"></image>
+      </view>
+    </view>
+    <view class="gig">
+      <view class="education">
+        <view class="flexRowBetween">
+          <view><text>●</text>2018.06-2018.10</view>
+        </view>
+        <view class="add">
+            <image src="/images/minus.png"></image>
+          </view>
+        <view class="expericence">
+          <view style="font-size:26rpx;">华路卓咨咨询管理有限公司</view>
+          <view class="detail">1.负责app开发和pc端软件界面</view>
+          <view class="detail">2.负责app开发和pc端软件界面</view>
+          <view class="detail">3.负责app开发和pc端软件界面</view>
+        </view>
+      </view>
+      <view class="education">
+        <view class="flexRowBetween">
+          <view><text>●</text>2018.06-2018.10</view>
+        </view>
+        <view class="add">
+            <image src="/images/minus.png"></image>
+          </view>
+        <view class="expericence">
+          <view style="font-size:26rpx;">华路卓咨咨询管理有限公司</view>
+          <view class="detail">1.负责app开发和pc端软件界面负责app开发和pc端软件界面负责app开发和pc端软件界面负责app开发和pc端软件界面负责app开发和pc端软件界面</view>
+          <view class="detail">2.负责app开发和pc端软件界面</view>
+          <view class="detail">3.负责app开发和pc端软件界面</view>
+        </view>
+      </view>
+    </view>
+</view>
+

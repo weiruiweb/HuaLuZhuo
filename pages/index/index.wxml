@@ -10,32 +10,77 @@
 
 <view class="sort flexRowBetween">
   <view class="sort_item">
-      <view class="sort_in flexRowBetween">
-          <view class="text1">西安</view>
+      <view class="sort_in  flexRowCenter"  bindtap="intoPath" data-path="/pages/select_city/select_city">
+          <view class="text1" >{{location}}</view>
           <image src="/images/up_icon.png"></image>
       </view>
   </view>
-  <view class="sort_item">
-      <view class="sort_in flexRowBetween">
-          <view class="text1">薪资</view>
+  <view class="sort_item"  data-id="1"  bindtap="changeSort">
+      <view class="sort_in flexRowCenter">
+          <view class="text1  {{is_choose == 1?'choose_this':''}}">薪资</view>
           <image src="/images/up_icon.png"></image>
       </view>
   </view>
-  <view class="sort_item">
-      <view class="sort_in flexRowBetween">
-          <view class="text1">经验</view>
+  <view class="sort_item"  data-id="2"  bindtap="changeSort">
+      <view class="sort_in flexRowCenter">
+          <view class="text1  {{is_choose == 2?'choose_this':''}}">经验</view>
           <image src="/images/up_icon.png"></image>
       </view>
   </view>
-  <view class="sort_item">
-      <view class="sort_in flexRowBetween">
-          <view class="text1">时间</view>
+  <view class="sort_item"  data-id="3"  bindtap="changeSort">
+      <view class="sort_in flexRowCenter">
+          <view class="text1  {{is_choose == 3?'choose_this':''}}">时间</view>
           <image src="/images/up_icon.png"></image>
       </view>
+  </view>
+<view class="choose">
+  <view class="choose_item" style="{{is_choose == 1?'display:block':'display:none'}}">
+     <view class="choose_list choose_this"  data-current="2"  bindtap="select_this">
+        由高到低
+    </view>
+    <view class="choose_list"  data-current="2"  bindtap="select_this">
+        由低到高
+    </view>
+    <button class="btn_submit">确认</button>
+  </view>
+  <view class="choose_item" style="{{is_choose == 2?'display:block':'display:none'}}">
+      <view class="choose_list choose_this" data-current="0" bindtap="select_this">
+        不限
+    </view>
+    <view class="choose_list"  data-current="1"   bindtap="select_this">
+        1年一下
+    </view>
+    <view class="choose_list"  data-current="2"  bindtap="select_this">
+        1-3年
+    </view>
+    <view class="choose_list">
+        3-5年
+    </view>
+    <view class="choose_list">
+        5-7年
+    </view>
+    <view class="choose_list">
+        7年以上
+    </view>
+    <button class="btn_submit">确认</button>
+  </view>
+  <view class="choose_item" style="{{is_choose == 3?'display:block':'display:none'}}">
+      <view class="choose_list choose_this">
+        不限
+    </view>
+    <view class="choose_list">
+        由近到远
+    </view>
+    <view class="choose_list">
+        由远到近
+    </view>
+    <button class="btn_submit">确认</button>
   </view>
 </view>
+</view>
+
 <view class="job">
-  <view class="w710">
+  <view class="w710" bindtap="intoPath" data-path="/pages/indexJob/indexJob">
     <view class="job_list flexRowBetween">
       <view class="list_left">
         <view class="job_type avoidOverflow">UI设计师</view>
@@ -61,11 +106,12 @@
         <view class="payment">2K-10K</view>
         <view class="hongbao">
           <image src="/images/hongbao.png"></image>
+          <view class="hongbao_money">¥2</view>
         </view>
       </view>
     </view>
   </view>
-  <view class="w710">
+  <view class="w710"  bindtap="intoPath" data-path="/pages/indexJob/indexJob">
     <view class="job_list flexRowBetween">
       <view class="list_left">
         <view class="job_type avoidOverflow">UI设计师</view>

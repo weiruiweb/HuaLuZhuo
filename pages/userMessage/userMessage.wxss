@@ -1,0 +1,18 @@
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+.about_img{
+	width:95%;
+	display:flex;
+	align-items:center;
+	background:#fff;
+	margin-bottom:20rpx;
+	padding:20rpx 2.5%;
+}
+.deatil{
+	font-size:26rpx;
+	color:#999;
+	line-height:40rpx;
+}

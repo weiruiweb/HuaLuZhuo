@@ -1,0 +1,96 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+
+.user_sort{
+	height:105rpx;
+	display:flex;
+	align-items:center;
+	width:100%;
+	background:#fff;
+}
+.user_item{
+	height:70rpx;
+	width:33.33%;
+	text-align:center;
+}
+.query{
+	width:60%;
+	height:60rpx;
+	border-radius:10rpx;
+	background:#eee;
+	line-height:60rpx;
+	text-align:center;
+	font-size:26rpx;
+	margin:0 auto;
+}
+.query_click{
+	width:40%;
+	height:60rpx;
+	line-height:60rpx;
+	border-radius:10rpx;
+	background:#ed7101;
+	line-height:60rpx;
+	text-align:center;
+	font-size:26rpx;
+	margin:0 auto;
+	color:#fff;
+}
+.sort{
+	height:68rpx;
+	border:solid 1px #d9d9d9;
+}
+.sort_item{
+	width:25%;
+	text-align:center;
+	font-size:24rpx;
+	color:#666;
+}
+.sort_in{
+	width:38%;
+	margin:0 auto;
+	height:68rpx;
+}
+.sort_in image{
+	width:17rpx;
+	height:11rpx;
+}
+.cash_tlt{
+	height:65rpx;
+	border-bottom:solid 1px #e0e0e0;
+	color:#ed7100;
+	font-size:26rpx;
+}
+.cash{
+	background:#fff;
+	margin-top:20rpx;
+	padding-bottom:20rpx;
+}
+.tlt_item{
+	text-align:center;
+	width:50%;
+}
+.cash_cont{
+	color:#666;
+	font-size:26rpx;
+	flex-wrap:wrap;
+}
+.reward{
+	background:#fff;
+	margin-top:20rpx;
+	padding-bottom:20rpx;
+}
+.cash_show{
+	display:none
+}
+.reward .tlt_item{
+	width:50%;
+	height:65rpx;
+	line-height:65rpx;
+}

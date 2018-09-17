@@ -144,4 +144,5 @@ view{
 	background:#ed7101;
 	align-items:center;
 	display:flex;
+	border-radius:10rpx 0 0 10rpx;
 }

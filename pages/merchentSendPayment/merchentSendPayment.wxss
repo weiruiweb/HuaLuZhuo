@@ -1,0 +1,76 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+view{
+	color:#666;
+}
+.sum_txt{
+	height:90rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+	border-bottom:solid 1px #e0e0e0;
+}
+.sumTxt{
+	height:40rpx;
+	padding-left:20rpx;
+	font-size:28rpx;
+	color:#666;
+	border-left:solid 4rpx #ed7101;
+}
+.payMoney{
+	font-size:24rpx;
+	color:#666;
+	height:80rpx;
+}
+.payMoney image{
+	width:18rpx;
+	height:18rpx;
+	margin-right:20rpx;
+}
+.payMoney text{
+	color:#ed7101;
+	margin-right:10rpx;
+}
+.submit_info{
+	width:394rpx;
+}
+.p40{
+	padding-bottom:30rpx;
+}
+.payInput input{
+	width:96%;
+	padding:0 2%;
+	height:68rpx;
+	border:solid 1px #ed7101;
+	border-radius:10rpx;
+	font-size:26rpx;
+}
+.bank{
+	width:100%;
+}
+.bank_in{
+	height:188rpx;
+	margin-top:20rpx;
+}
+.bank_in image{
+	width:130rpx;
+	height:85rpx;
+}
+.bank_left{
+	width:28.5%;
+}
+.bank_right{
+	width:71.5%;
+	font-size:26rpx;
+}
+.bank_right view{
+	line-height:40rpx;
+	width:100%;
+}

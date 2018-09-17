@@ -117,6 +117,6 @@
 <view style="height:100rpx;width:100%;">
  
 </view>
-<button class="confirm_bind"   bindtap="intoPathRedi" data-path="/pages/userCash/userCash">
+<button class="confirm_bind"   bindtap="intoPath" data-path="/pages/merchentSendPayment/merchentSendPayment">
   支付发布
 </button>

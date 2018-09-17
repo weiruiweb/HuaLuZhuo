@@ -171,12 +171,13 @@ view{
 }
 .reward_sort{
 	height:90rpx;
-	border-bottom:solid 1px #e0e0e0;
+
 	font-size:26rpx;
 	color:#666;
 	width:50%;
 	line-height:90rpx;
 }
 .reward_money{
-	flex-wrap:wrap;
+	flex-wrap:wrap;	
+	border-bottom:solid 1px #e0e0e0;
 }

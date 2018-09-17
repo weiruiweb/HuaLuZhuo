@@ -1,0 +1,154 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+	padding-bottom:60rpx;
+}
+view{
+	font-size:26rpx;
+	color:#333;
+}
+.w710{
+	height:205rpx;
+	align-items:center;
+	display:flex;
+	background:#fff;
+	overflow:hidden;
+}
+.input_before text{
+	color:#ff0000;
+}
+.sum_txt{
+	height:90rpx;
+	align-items:center;
+	width:100%;
+	display:flex;
+}
+.sumTxt{
+	height:40rpx;
+	padding-left:20rpx;
+	font-size:28rpx;
+	color:#333;
+	font-weight:bold;
+	border-left:solid 4rpx #ed7101;
+}
+.gig{
+	border:solid 1px #e0e0e0;
+	border-radius:10rpx;
+	padding-top:20rpx;
+	padding-bottom:40rpx;
+}
+.education{
+	padding:0rpx 40rpx;
+	position:relative;
+}
+.education .add{
+	position:absolute;
+	top:10rpx;
+	right:0;
+}
+
+.expericence{
+	border-left:dashed 1px #e0e0e0;
+	padding-left:20rpx;
+	padding-bottom:20rpx;
+	margin-left:10rpx;
+}
+.detail{
+	font-size:24rpx;
+	margin-top:10rpx;
+	color:#666;
+}
+.phone_note{
+	margin-top:28rpx;
+	
+	line-height:38rpx;
+}
+.input_before{
+	width:22%;
+	height:85rpx;
+	line-height:85rpx;
+	overflow:hidden;
+	font-size:28rpx;
+	color:#333;	
+	align-items:center;
+}
+.input_note{
+	width:4%;
+	color:#ff0000;
+	font-size:30rpx;
+	margin-right:20rpx;
+	height:85rpx;
+	line-height:78rpx;
+	display:inline-block;
+}
+.bank_card{
+	width:100%;
+	height:85rpx;
+	border-bottom:solid 1px #e0e0e0;
+}
+.bank_card .resume_info{
+	width:74%;
+	height:85rpx;
+	
+}
+.resume_info input{
+	width:96%;
+	padding:0 2%;
+	height:85rpx;
+	line-height:85rpx;
+	font-size:26rpx;
+	text-align:right;
+}
+.pencil{
+	width:23%;
+	text-align:right;
+}
+.pencil image{
+	width:24rpx;
+	height:24rpx;
+	margin-right:20rpx;
+}
+
+.confirm_bind{
+	width:100%;
+	height:84rpx;
+	background:#ed7101;
+	line-height:84rpx;
+	font-size:30rpx;
+	color:#fff;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+}
+.resume_info .picker{
+	line-height:85rpx;
+	height:85rpx;
+	float:right;
+	width:42%;
+	padding:0 2%;
+}
+.bank_card image{
+	width:15rpx;
+	height:10rpx;
+}
+.btn{
+	margin-top:50rpx;
+}
+.btn button{
+	width:250rpx;
+	height:70rpx;
+	border-radius:10rpx;
+	background:#ccc;
+	line-height:70rpx;
+	text-align:center;
+	font-size:28rpx;
+	color:#fff;
+	border:none;
+}
+.save{
+	background:#ed7101;
+}

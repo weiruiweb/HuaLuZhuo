@@ -1,0 +1,60 @@
+<!--index.wxml-->
+
+<view class="job">
+  <view class="w710">
+    <view class="job_list flexRowBetween" bindtap="intoPath" data-path="/pages/merchentJobModify/merchentJobModify">
+      <view class="list_left"> 
+        <view class="job_type avoidOverflow">UI设计师</view>
+        <view class="treatment flex">
+          <view class="treatment_sort">五险一金</view>
+          <view class="treatment_sort">加班补偿</view>
+          <view class="treatment_sort">交通方便</view>
+        </view>
+        <view class="job_company flexRowBetween">
+          <view class="company_img">
+            <image src="/images/navbar2-a.png"></image>
+          </view>
+          <view class="company_introuce">
+             <view class="company_name avoidOverflow">华路卓咨询有限公司</view>
+             <view class="send_datail flexRowBetween">
+                <view class="send_tiem">06年7月</view>
+                
+             </view>
+          </view>
+        </view>
+      </view>
+      <view class="list_right">
+        <view class="payment">2K-10K</view>
+        <view class="hongbao">
+            <view class="numner">¥2</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="user_sort">
+    <view class="user_item flexRowBetween"  bindtap="intoPath" data-path="/pages/merchentResume/merchentResume">
+      <view style="width:98%;">
+       <view class="item_bottom">收到报名<text>(40)</text></view>
+      </view>
+      <view class="vertical_line">
+        <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+      </view>
+    </view>
+    <view class="user_item flexRowBetween"  bindtap="intoPath" data-path="/pages/merchentJobNow/merchentJobNow">
+      <view style="width:98%;">
+       <view class="item_bottom">已入职<text>(40)</text></view>
+      </view>
+      <view class="vertical_line">
+        <view style="width:1px;height:100%;border-left:dashed 1px #ed7101;"></view>
+      </view>
+    </view>
+    <view class="user_item"   bindtap="intoPath" data-path="/pages/merchenReword/merchenReword">
+       <view class="item_bottom" style="height:60rpx;line-height:60rpx;">已发奖金<text>(40)</text></view>
+    </view>
+  </view>
+</view>
+
+
+<view class="solely" style="font-size:20rpx;color:#666;text-align:center;margin-bottom:120rpx;">
+  技术支持:西安纯粹科技有限公司
+</view>

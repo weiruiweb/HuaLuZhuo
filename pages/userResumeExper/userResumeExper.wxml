@@ -1,0 +1,53 @@
+<!--user.wxml-->
+<view class="p40">
+    <view class="sum_txt flexRowBetween">
+      <view class="sumTxt">工作经验</view>
+    </view>
+    <view class="p40 gig">
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         公司名称:
+        </view>
+        <view class="resume_info">
+          <input placeholder="请输入公司名称" value=""></input>
+        </view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         开始时间:
+        </view>
+        <view class="resume_info">
+          <input placeholder="开始时间" value=""></input>
+        </view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         结束时间:
+        </view>
+        <view class="resume_info">
+          <input placeholder="结束时间" value=""></input>
+        </view>
+      </view>
+      <view class="bank_card flexRowBetween">
+        <view class="input_note">*</view>
+        <view class="input_before">
+         职位名称:
+        </view>
+        <view class="resume_info">
+          <input placeholder="职位名称" value=""></input>
+        </view>
+      </view>
+      <view style="height:90rpx;line-height:90rpx;color:#666;font-size:28rpx;">工作描述:</view>
+      <view class="job_des">
+        <textarea placeholder="请输入工作描述,不少于20个字">
+        </textarea>
+      </view>
+  </view>
+</view>
+<view class="btn flexRowBetween">
+    <button bindtap="setValue" >取消</button>
+    <button class="save" style="background:#ed7101;"  bindtap="intoPathRedi" data-path="/pages/userResume/userResume">保存</button>
+  </view>

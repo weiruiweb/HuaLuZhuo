@@ -1,0 +1,19 @@
+<!--about.wxml-->
+<view class="w710">
+  <view class="about_img"  bindtap="intoPath" data-path="/pages/aboutIntroduce/aboutIntroduce">
+  	<view style="width:100%;">
+  		<view style="font-size:30rpx;color:#333;height:80rpx;line-height:80rpx;">
+  			华路卓咨询有限公司
+  		</view>
+      <view class="deatil">华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司</view>
+  	</view>
+  </view>
+  <view class="about_img"  bindtap="intoPath" data-path="/pages/aboutIntroduce/aboutIntroduce">
+    <view style="width:100%;">
+      <view style="font-size:30rpx;color:#333;height:80rpx;line-height:80rpx;">
+        华路卓咨询有限公司
+      </view>
+      <view class="deatil">华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司华路卓咨询有限公司</view>
+    </view>
+  </view>
+</view>

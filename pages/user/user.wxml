@@ -1,7 +1,7 @@
 <!--user.wxml-->
 <view class="banner">
   <view class="p40">
-      <view class="banner_top">
+      <view class="banner_top" bindtap="intoPath" data-path="/pages/userMessage/userMessage">
         <image src="/images/tixing.png"></image>
       </view>
       <view class="banner_bottom flexRowBetween">
@@ -9,7 +9,7 @@
           <view style="font-size:46rpx;color:#fff;">
             华路卓
           </view>
-          <view style="font-size:24rpx;color:#fff;margin-top:10rpx;">个人简历 >> </view>
+          <view class="resume" bindtap="intoPath"  data-path="/pages/userResume/userResume">个人简历 >> </view>
         </view>
         <view class="user_right">
             <view class="user_img">
@@ -70,7 +70,7 @@
       </view>
       <view class="module_text">我的下级</view>
   </view>
-  <view class="user_module"   bindtap="intoPath" data-path="/pages/userCollect/userCollect">
+  <view class="user_module"   bindtap="intoPath" data-path="/pages/userWageQuery/userWageQuery">
     <view  style="height:100%;border-left:solid 1px #e0e0e0;border-right:solid 1px #e0e0e0;">
       <view class="module_img">
         <image src="/images/user_icon5.png"></image>

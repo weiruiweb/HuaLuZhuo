@@ -1,0 +1,51 @@
+<!--user.wxml-->
+<view class="p40" style="margin-top:20rpx;background:#fff;">
+  <view class="sum_txt">
+    <view class="sumTxt">在线支付</view>
+  </view>
+  <view class="payMoney flex">
+    <image src="/images/payment1.png"></image><text>500</text>元
+  </view>
+  <view class="sum_txt">
+    <view class="sumTxt">开具发票</view>
+  </view>
+  <view class="choose flexRowBetween">
+    <view class="payMoney flex" style="width:50%;">
+      <image src="/images/payment2.png"></image>否
+    </view>
+    <view class="payMoney flex" style="width:50%;">
+      <image src="/images/payment3.png"></image>是
+    </view>
+  </view>
+  <button class="submit_info">微信支付</button>
+</view>
+<view class="p40" style="margin-top:20rpx;background:#fff;">
+  <view class="sum_txt" style="border:none;">
+    <view class="sumTxt">自定义金额</view>
+  </view>
+  <view class="payInput">
+    <input placeholder="转入自定义金额" ></input>
+  </view>
+  <button class="submit_info">微信转账</button>
+</view>
+<view class="p40" style="margin-top:20rpx;background:#fff;padding-bottom:100rpx;">
+  <view class="sum_txt">
+    <view class="sumTxt">银行汇款</view>
+  </view>
+  <view class="bank">
+    <view class="bank_in flexRowBetween">
+        <view class="bank_left">
+          <image src="/images/payment4.png"></image>
+        </view>
+        <view class="bank_right">  
+          <view style="color:#ed7101">对公账户</view>
+          <view>开户名称:开户名称开户名称开户名称</view>
+          <view>纳税人识别码:1465468468487</view>
+          <view>公司账号:1465468468487</view>
+          <view>开户银行:开户银行开户银行</view>
+        </view>
+    </view>
+    <view style="font-size:24rpx;margin-top:20rpx;">提醒:汇款时，请注意汇款公司账号，请仔细核对信息子啊进行汇款</view>
+  </view>
+</view>
+
